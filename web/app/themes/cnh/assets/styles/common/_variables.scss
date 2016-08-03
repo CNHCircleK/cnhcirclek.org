@@ -1,3 +1,5 @@
+$cki-navy-blue: #053057;
+
 // Font
 @import 'https://fonts.googleapis.com/css?family=PT+Sans:400,700';
 $font-family-sans-serif:  "Myriad Pro", "PT Sans", Helvetica, Arial, sans-serif !default;
@@ -10,4 +12,5 @@ $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
 
 // Colors
-$brand-primary:         #053057;
+$brand-primary:         $cki-navy-blue;
+$body-bg:               $cki-navy-blue !default;
