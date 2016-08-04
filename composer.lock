@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a4474daa6b9280797985dea83403926f",
-    "content-hash": "0dcf292abfcf582d2b4502885a09cc69",
+    "hash": "f321b5bef2f82a5b7a53e2082410bdaf",
+    "content-hash": "c94793cfe57a6bcc6eb8d4c927a9ba13",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -657,6 +657,46 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/duplicator/"
+        },
+        {
+            "name": "wpackagist-plugin/siteorigin-panels",
+            "version": "2.4.10",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
+                "reference": "tags/2.4.10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.10.zip",
+                "reference": "tags/2.4.10",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/siteorigin-panels/"
+        },
+        {
+            "name": "wpackagist-plugin/so-widgets-bundle",
+            "version": "1.6.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/so-widgets-bundle/",
+                "reference": "tags/1.6.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.6.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/so-widgets-bundle/"
         },
         {
             "name": "wpackagist-plugin/timber-library",
