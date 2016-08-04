@@ -1,0 +1,74 @@
+<section class="jumbotron row">
+    <div>
+        <h1>We are CNH Circle K</h1>
+        <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eius esse facilis, illo laborum magnam
+            molestias soluta tempore veritatis voluptates. Deserunt facere minus molestiae nemo non praesentium quis
+            reiciendis totam.
+        </p>
+
+        <a href="#" class="btn btn-primary">Our History</a>
+        <a href="#" class="btn btn-primary">Our Service</a>
+    </div>
+</section>
+
+<section class="row">
+    <div class="col-xs-12">
+        <h2>Our Causes</h2>
+    </div>
+
+    {% for i in 0..2 %}
+        <div class="col-xs-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <img src="http://lorempixel.com/400/400" class="img-responsive">
+                </div>
+                <div class="panel-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aut distinctio, eum facere iste
+                    itaque laborum libero maxime mollitia necessitatibus nostrum numquam quo sequi, similique totam
+                    veritatis voluptatibus. Alias, ratione!
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</section>
+
+<section class="row">
+    <div class="col-md-8">
+        <h2>News</h2>
+
+        {% for i in 0..1 %}
+            <article class="article panel panel-default">
+                <div class="panel-body">
+                    <h3>Headline</h3>
+
+                    <p class="date">February 10, 2016</p>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam aperiam aspernatur
+                        consectetur deleniti deserunt earum excepturi harum in maiores officia officiis praesentium quae
+                        quam quia, suscipit tempore totam vitae.
+                    </p>
+                </div>
+                <div class="panel-footer text-right">
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </article>
+        {% endfor %}
+    </div>
+
+    <div class="col-md-4">
+        <h2>Upcoming Events</h2>
+        <div class="list-group">
+            {% for i in 0..2 %}
+            <a href="#" class="list-group-item">
+                <p><strong>District Convention</strong></p>
+
+                <p>March 17, 2016 | 7PM - 11PM</p>
+
+                <p>Burbank, California</p>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
