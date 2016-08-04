@@ -38,7 +38,7 @@
         <h2>News</h2>
 
         {% for post in posts %}
-            <article class="article panel panel-default">
+            <article class="teaser panel panel-default">
                 <div class="panel-body">
                     <h3>{{post.title}}</h3>
 
@@ -48,8 +48,10 @@
                         {{post.get_preview(50, true, '')}}
                     </p>
                 </div>
-                <div class="panel-footer text-right">
-                    <a href="{{post.link}}" class="btn btn-primary">Read More</a>
+                <div class="panel-footer clearfix">
+                    <div class="teaser__author">Posted by <a href="{{post.author.link}}">{{post.author.name}}</a></div>
+
+                    <a href="{{post.link}}" class="btn btn-primary btn-sm pull-right">Read More</a>
                 </div>
             </article>
         {% endfor %}
