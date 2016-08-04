@@ -1,0 +1,11 @@
+.list-group-item-primary {
+  background-color: $brand-primary;
+  color: white !important;
+  text-align: center;
+
+  &:hover,
+  &:focus,
+  &.focus {
+    background-color: darken($brand-primary, 10%) !important;
+  }
+}
