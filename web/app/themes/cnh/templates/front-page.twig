@@ -37,21 +37,19 @@
     <div class="col-md-8">
         <h2>News</h2>
 
-        {% for i in 0..1 %}
+        {% for post in posts %}
             <article class="article panel panel-default">
                 <div class="panel-body">
-                    <h3>Headline</h3>
+                    <h3>{{post.title}}</h3>
 
-                    <p class="date">February 10, 2016</p>
+                    <p class="date">{{post.post_date|date}}</p>
 
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam aperiam aspernatur
-                        consectetur deleniti deserunt earum excepturi harum in maiores officia officiis praesentium quae
-                        quam quia, suscipit tempore totam vitae.
+                        {{post.get_preview(50, true, '')}}
                     </p>
                 </div>
                 <div class="panel-footer text-right">
-                    <a href="#" class="btn btn-primary">Read More</a>
+                    <a href="{{post.link}}" class="btn btn-primary">Read More</a>
                 </div>
             </article>
         {% endfor %}
