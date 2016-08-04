@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3a1ee2fd54df881a2bc1ff27efb08e5e",
-    "content-hash": "0a94ba6227efab7937168c96cdffeb4f",
+    "hash": "5daf3b0dcc7f9bb8f0f1d7221644323b",
+    "content-hash": "1f7cfaa400dc3dac9f2933579b25a870",
     "packages": [
         {
             "name": "composer/installers",
@@ -352,7 +352,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/buddypress.2.6.1.1.zip",
-                "reference": null,
+                "reference": "tags/2.6.1.1",
                 "shasum": null
             },
             "require": {
@@ -360,6 +360,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/buddypress/"
+        },
+        {
+            "name": "wpackagist-plugin/duplicator",
+            "version": "1.1.14",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/duplicator/",
+                "reference": "tags/1.1.14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/duplicator.1.1.14.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/duplicator/"
         }
     ],
     "packages-dev": [
