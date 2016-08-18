@@ -1,6 +1,6 @@
 <div id="front-page">
     <section id="hero" class="jumbotron row">
-        <div>
+        <div class="container">
             <h1>We are CNH Circle K</h1>
             <p class="lead">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eius esse facilis, illo laborum magnam
@@ -41,44 +41,46 @@
         {% endfor %}
     </section>
 
-    <section class="row">
-        <div class="col-md-8">
-            <h2>News</h2>
+    <section id="news" class="row">
+        <div class="container">
+            <div class="col-md-8">
+                <h2>News</h2>
 
-            {% for post in posts %}
-                <article class="teaser panel panel-default">
-                    <div class="panel-body">
-                        <h3>{{ post.title }}</h3>
+                {% for post in posts %}
+                    <article class="teaser panel panel-default">
+                        <div class="panel-body">
+                            <h3>{{ post.title }}</h3>
 
-                        <p class="date">{{ post.post_date|date }}</p>
+                            <p class="date">{{ post.post_date|date }}</p>
 
-                        <p>
-                            {{ post.get_preview(50, true, '') }}
-                        </p>
-                    </div>
-                    <div class="panel-footer clearfix">
-                        <div class="teaser__author">Posted by <a
-                                    href="{{ post.author.link }}">{{ post.author.name }}</a></div>
+                            <p>
+                                {{ post.get_preview(50, true, '') }}
+                            </p>
+                        </div>
+                        <div class="panel-footer clearfix">
+                            <div class="teaser__author">Posted by <a
+                                        href="{{ post.author.link }}">{{ post.author.name }}</a></div>
 
-                        <a href="{{ post.link }}" class="btn btn-primary btn-sm pull-right">Read More</a>
-                    </div>
-                </article>
-            {% endfor %}
-        </div>
-
-        <div class="col-md-4">
-            <h2>Upcoming Events</h2>
-            <div class="list-group">
-                {% for i in 0..2 %}
-                    <a href="#" class="list-group-item">
-                        <p><strong>District Convention</strong></p>
-
-                        <p>March 17, 2016 | 7PM - 11PM</p>
-
-                        <p>Burbank, California</p>
-                    </a>
+                            <a href="{{ post.link }}" class="btn btn-primary btn-sm pull-right">Read More</a>
+                        </div>
+                    </article>
                 {% endfor %}
-                <a href="#" class="list-group-item list-group-item-primary">Go to Calendar</a>
+            </div>
+
+            <div class="col-md-4">
+                <h2>Upcoming Events</h2>
+                <div class="list-group">
+                    {% for i in 0..2 %}
+                        <a href="#" class="list-group-item">
+                            <p><strong>District Convention</strong></p>
+
+                            <p>March 17, 2016 | 7PM - 11PM</p>
+
+                            <p>Burbank, California</p>
+                        </a>
+                    {% endfor %}
+                    <a href="#" class="list-group-item list-group-item-primary">Go to Calendar</a>
+                </div>
             </div>
         </div>
     </section>
