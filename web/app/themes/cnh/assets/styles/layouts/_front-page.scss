@@ -1,3 +1,13 @@
-.front-page {
+#front-page {
+  #we-support {
+    background-color: $gray-lighter;
 
+    .supportee {
+      display: inline-block;
+    }
+  }
+
+  #tenets {
+    background-color: white;
+  }
 }

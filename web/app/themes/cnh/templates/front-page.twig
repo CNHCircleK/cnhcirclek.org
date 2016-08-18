@@ -1,75 +1,85 @@
-<section class="jumbotron row">
-    <div>
-        <h1>We are CNH Circle K</h1>
-        <p class="lead">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eius esse facilis, illo laborum magnam
-            molestias soluta tempore veritatis voluptates. Deserunt facere minus molestiae nemo non praesentium quis
-            reiciendis totam.
-        </p>
+<div id="front-page">
+    <section class="jumbotron row">
+        <div>
+            <h1>We are CNH Circle K</h1>
+            <p class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eius esse facilis, illo laborum magnam
+                molestias soluta tempore veritatis voluptates. Deserunt facere minus molestiae nemo non praesentium quis
+                reiciendis totam.
+            </p>
 
-        <a href="#" class="btn btn-primary">Our History</a>
-        <a href="#" class="btn btn-primary">Our Service</a>
-    </div>
-</section>
+            <a href="#" class="btn btn-primary">Our History</a>
+            <a href="#" class="btn btn-primary">Our Service</a>
+        </div>
+    </section>
 
-<section class="row">
-    <div class="col-xs-12">
-        <h2>Our Causes</h2>
-    </div>
+    <section id="we-support" class="text-center row no-gutter">
+        <p>We support</p>
+        <div class="supportee">
 
-    {% for i in 0..2 %}
-        <div class="col-xs-4">
-            <div class="panel panel-default">
-                <div class="panel-heading panel-heading_no-padding">
-                    <img src="http://lorempixel.com/400/400" class="img-responsive">
-                </div>
-                <div class="panel-body">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aut distinctio, eum facere iste
-                    itaque laborum libero maxime mollitia necessitatibus nostrum numquam quo sequi, similique totam
-                    veritatis voluptatibus. Alias, ratione!
+        </div>
+        <div class="supportee">
+
+        </div>
+        <div class="supportee">
+
+        </div>
+    </section>
+
+    <section id="tenets" class="row no-gutter">
+        <div class="col-xs-3">
+            <h2>Our Tenets</h2>
+        </div>
+        {% for i in 0..2 %}
+            <div class="col-xs-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading panel-heading_no-padding">
+                        <img src="http://lorempixel.com/400/400" class="img-responsive">
+                    </div>
                 </div>
             </div>
-        </div>
-    {% endfor %}
-</section>
-
-<section class="row">
-    <div class="col-md-8">
-        <h2>News</h2>
-
-        {% for post in posts %}
-            <article class="teaser panel panel-default">
-                <div class="panel-body">
-                    <h3>{{post.title}}</h3>
-
-                    <p class="date">{{post.post_date|date}}</p>
-
-                    <p>
-                        {{post.get_preview(50, true, '')}}
-                    </p>
-                </div>
-                <div class="panel-footer clearfix">
-                    <div class="teaser__author">Posted by <a href="{{post.author.link}}">{{post.author.name}}</a></div>
-
-                    <a href="{{post.link}}" class="btn btn-primary btn-sm pull-right">Read More</a>
-                </div>
-            </article>
         {% endfor %}
-    </div>
+    </section>
 
-    <div class="col-md-4">
-        <h2>Upcoming Events</h2>
-        <div class="list-group">
-            {% for i in 0..2 %}
-            <a href="#" class="list-group-item">
-                <p><strong>District Convention</strong></p>
+    <section class="row">
+        <div class="col-md-8">
+            <h2>News</h2>
 
-                <p>March 17, 2016 | 7PM - 11PM</p>
+            {% for post in posts %}
+                <article class="teaser panel panel-default">
+                    <div class="panel-body">
+                        <h3>{{ post.title }}</h3>
 
-                <p>Burbank, California</p>
-            </a>
+                        <p class="date">{{ post.post_date|date }}</p>
+
+                        <p>
+                            {{ post.get_preview(50, true, '') }}
+                        </p>
+                    </div>
+                    <div class="panel-footer clearfix">
+                        <div class="teaser__author">Posted by <a
+                                    href="{{ post.author.link }}">{{ post.author.name }}</a></div>
+
+                        <a href="{{ post.link }}" class="btn btn-primary btn-sm pull-right">Read More</a>
+                    </div>
+                </article>
             {% endfor %}
-            <a href="#" class="list-group-item list-group-item-primary">Go to Calendar</a>
         </div>
-    </div>
-</section>
+
+        <div class="col-md-4">
+            <h2>Upcoming Events</h2>
+            <div class="list-group">
+                {% for i in 0..2 %}
+                    <a href="#" class="list-group-item">
+                        <p><strong>District Convention</strong></p>
+
+                        <p>March 17, 2016 | 7PM - 11PM</p>
+
+                        <p>Burbank, California</p>
+                    </a>
+                {% endfor %}
+                <a href="#" class="list-group-item list-group-item-primary">Go to Calendar</a>
+            </div>
+        </div>
+    </section>
+</div>
