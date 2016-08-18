@@ -1,4 +1,11 @@
 #front-page {
+  #hero {
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background: url(../images/stc_south.jpg) center;
+    background-size: cover;
+  }
+
   #we-support {
     background-color: $gray-lighter;
 
