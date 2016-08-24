@@ -33,7 +33,7 @@
 
   #we-support {
     .container {
-      background-color: $gray-lighter;
+      background-color: white;
     }
 
     .we-support__wrapper {
@@ -77,6 +77,8 @@
   }
 
   #news {
-    background-color: $gray-lighter;
+    .container {
+      background-color: $gray-lighter;
+    }
   }
 }
