@@ -1,6 +1,6 @@
 #front-page {
   #hero {
-    *::before {
+    *:before {
       position: absolute;
       top: 0;
       left: 0;
@@ -16,7 +16,7 @@
 
     .frost-panel {
       color: white;
-      background-color: rgba(5,48,87,.82);
+      background-color: rgba(5, 48, 87, .82);
     }
 
     .jumbotron-header {
@@ -46,7 +46,32 @@
   }
 
   #tenets {
-    background-color: white;
+    background-color: $cki-navy-blue; // Super hacky to cover up the hero image. Should fix later
+
+    .tenet {
+      background-color: rgb(77,77,76); // Also hacky way to make the color overlay
+      max-height: 200px;
+      padding: 0;
+
+      .tenet__bg {
+        width: 100%;
+
+        img {
+          opacity: 0.8;
+          z-index: 0;
+          object-fit: cover;
+          width: 100%;
+          height: 200px;
+        }
+      }
+
+      .tenet__body {
+        padding: 0 10px;
+        position: absolute;
+        color: white;
+        top: 0;
+      }
+    }
   }
 
   #news {
