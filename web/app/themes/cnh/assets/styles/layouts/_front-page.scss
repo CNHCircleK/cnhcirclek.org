@@ -32,7 +32,9 @@
   }
 
   #we-support {
-    background-color: $gray-lighter;
+    .container {
+      background-color: $gray-lighter;
+    }
 
     .we-support__wrapper {
       display: flex;
