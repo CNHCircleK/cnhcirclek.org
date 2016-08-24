@@ -1,9 +1,34 @@
 #front-page {
   #hero {
-    min-height: 600px;
-    background-repeat: no-repeat;
-    background: url(../images/stc_south.jpg) center;
-    background-size: cover;
+    *::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background: url(../images/stc_south.jpg) center;
+      background-size: cover;
+    }
+
+    min-height: 500px;
+
+    .frost-panel {
+      color: white;
+      background-color: rgba(5,48,87,.82);
+    }
+
+    .jumbotron-header {
+      * {
+        display: inline-block;
+      }
+    }
+
+    .jumbotron {
+      @include make-md-column(6);
+      border-radius: 0;
+    }
   }
 
   #we-support {
