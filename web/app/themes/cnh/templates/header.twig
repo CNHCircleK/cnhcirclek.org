@@ -1,11 +1,25 @@
 <header class="banner">
     <div class="container">
         <nav class="navbar navbar-default">
-            <a class="brand" href="{{ site.url }}">{{ site.name }}</a>
+            <div class="masthead">
+                <div class="masthead__logos">
+                    <div class="masthead__left">
+                        <a href="{{ site.url }}">
+                            <img src="{{ function('bloginfo','template_directory') }}/dist/images/cki_wordmark.png"
+                                 alt="CKI">
+                        </a>
+                    </div>
+
+                    <div class="masthead__right">
+                        <img src="{{ function('bloginfo','template_directory') }}/dist/images/cnh_district_emblem.png"
+                             alt="California-Nevada-Hawaii District of Circle K International">
+                    </div>
+                </div>
+
+                <div class="masthead__stripes"></div>
+            </div>
 
             {% if menu %}
-                <hr>
-
                 <ul class="nav navbar-nav">
                     {% for item in menu.get_items %}
                         {% if item.get_children %}
