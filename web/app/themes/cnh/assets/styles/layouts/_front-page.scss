@@ -22,11 +22,14 @@
     .jumbotron-header {
       * {
         display: inline-block;
+        padding: 10px 25px;
+        font-weight: 600;
       }
     }
 
     .jumbotron {
       @include make-md-column(6);
+      padding: 25px;
       border-radius: 0;
     }
   }
