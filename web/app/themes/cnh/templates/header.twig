@@ -1,0 +1,49 @@
+<header class="banner">
+    <div class="container">
+        <nav class="navbar navbar-default navbar-opaque">
+            <div class="masthead">
+                <div class="masthead__logos">
+                    <div class="masthead__left">
+                        <a href="{{ site.url }}">
+                            <img src="{{ function('bloginfo','template_directory') }}/dist/images/cki_wordmark.png"
+                                 alt="CKI">
+                        </a>
+                    </div>
+
+                    <div class="masthead__right">
+                        <img src="{{ function('bloginfo','template_directory') }}/dist/images/cnh_district_emblem.png"
+                             alt="California-Nevada-Hawaii District of Circle K International">
+                    </div>
+                </div>
+
+                <div class="masthead__stripes"></div>
+            </div>
+
+            {% if menu %}
+                <ul class="nav navbar-nav">
+                    {% for item in menu.get_items %}
+                        {% if item.get_children %}
+                            <li class="dropdown">
+                                <ul class="nav-drop">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                       aria-haspopup="true" aria-expanded="false">
+                                        {{ item.title }} <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        {% for child in item.get_children %}
+                                            <li><a href="{{ child.get_link }}">{{ child.title }}</a></li>
+                                        {% endfor %}
+                                    </ul>
+                                </ul>
+                            </li>
+                        {% else %}
+                            <li class="{{ item.classes | join(' ') }}">
+                                <a href="{{ item.get_link }}">{{ item.title }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </nav>
+    </div>
+</header>
