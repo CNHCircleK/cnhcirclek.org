@@ -1,19 +1,21 @@
-<article class="post post-type-{{post.post_type}}" id="post-{{post.ID}}">
+<article class="post post-type-{{ post.post_type }}" id="post-{{ post.ID }}">
 
     <div class="post__header">
-        <div class="header-content">
+        <div class="header-wrapper">
             <div class="container">
-                <div class="row row_valign">
-                    <div class="col-sm-6">
-                        <h1>{{ post.title }}</h1>
-                        <p>{{ post.post_date|date }}</p>
-                    </div>
+                <div class="header-content">
+                    <div class="row row_valign">
+                        <div class="col-sm-6">
+                            <h1>{{ post.title }}</h1>
+                            <p>{{ post.post_date|date }}</p>
+                        </div>
 
-                    <div class="col-sm-6 text-right">
-                        <img src="http://lorempixel.com/60/60" alt="{{ post.author.name }}" class="img-circle">
-                        <div class="author">
-                            <div class="author__name">{{ post.author.name }}</div>
-                            <div class="author__other">Position</div>
+                        <div class="col-sm-6 text-right">
+                            <img src="http://lorempixel.com/60/60" alt="{{ post.author.name }}" class="img-circle">
+                            <div class="author">
+                                <div class="author__name">{{ post.author.name }}</div>
+                                <div class="author__other">Position</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -21,7 +23,8 @@
         </div>
 
         <div class="header-image">
-            <img src="{{ function('bloginfo','template_directory') }}/dist/images/stc_south.jpg" alt="" class="responsive">
+            <img src="{{ function('bloginfo','template_directory') }}/dist/images/stc_south.jpg" alt=""
+                 class="responsive">
         </div>
     </div>
 

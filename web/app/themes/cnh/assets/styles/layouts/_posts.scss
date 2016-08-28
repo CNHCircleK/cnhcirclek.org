@@ -15,9 +15,14 @@
       }
     }
 
-    .header-content {
+    .header-wrapper {
       background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
       padding-bottom: 30px;
+    }
+
+    .header-content {
+      padding-left: 15px;
+      padding-right: 15px;
 
       .author {
         display: inline-block;
@@ -28,14 +33,11 @@
           font-weight: 800;
         }
       }
-
-
-
     }
   }
 
   .post__content {
-    padding: 30px 50px;
+    padding: 20px 15px;
     font-size: $font-size-large;
     line-height: 1.58;
   }
