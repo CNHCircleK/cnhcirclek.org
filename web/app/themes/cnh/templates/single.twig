@@ -26,18 +26,20 @@
     </div>
 
     <div class="container container_white">
-        <div class="row">
-            <div class="col-xs-12">
-                {{ post.content }}
-            </div>
-        </div>
-
-        {% if post.comment_status != 'closed' %}
+        <div class="post__content">
             <div class="row">
                 <div class="col-xs-12">
-                {# Disqus goes here #}
+                    {{ post.content }}
                 </div>
             </div>
-        {% endif %}
+
+            {% if post.comment_status != 'closed' %}
+                <div class="row">
+                    <div class="col-xs-12">
+                        {# Disqus goes here #}
+                    </div>
+                </div>
+            {% endif %}
+        </div>
     </div>
 </article>
