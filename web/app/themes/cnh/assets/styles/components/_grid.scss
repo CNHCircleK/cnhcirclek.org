@@ -8,3 +8,21 @@
 .sidebar {
   @include make-sm-column($sidebar-sm-columns);
 }
+
+.row_valign {
+  font-size: 0;
+
+  & > * {
+    float: none;
+    display: inline-block;
+    font-size: $font-size-base;
+
+    &:last-child {
+      vertical-align: bottom;
+    }
+  }
+
+  p:last-child {
+    margin-bottom:0;
+  }
+}
