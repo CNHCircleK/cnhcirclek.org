@@ -17,7 +17,20 @@
 
     .header-content {
       background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
-      padding-bottom: 15px;
+      padding-bottom: 30px;
+
+      .author {
+        display: inline-block;
+        vertical-align: middle;
+
+        .author__name {
+          margin-left: 20px;
+          font-weight: 800;
+        }
+      }
+
+
+
     }
   }
 }
