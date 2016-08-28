@@ -4,20 +4,30 @@
     <article class="post post-type-{{ post.post_type }}" id="post-{{ post.ID }}">
 
         <div class="post__header">
-            <div class="header-wrapper">
+            <div class="header-wrapper{% if not post.thumbnail %} no-featured-image{% endif %}">
                 <div class="container">
                     <div class="header-content">
                         <div class="row row_valign">
                             <div class="col-sm-6">
-                                <h1>{{ post.title }}</h1>
-                                <p>{{ post.post_date|date }}</p>
+                                {% block post_header_left %}
+                                    <h1>{{ post.title }}</h1>
+                                    <p>{{ post.post_date|date }}</p>
+                                {% endblock %}
+                            </div>
+
+                            <div class="col-sm-6 text-right">
+                                {% block post_header_right %}{% endblock %}
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="header-image"></div>
+            {% if post.thumbnail %}
+                <div class="header-image">
+                    <img src="{{ post.thumbnail.src }}" class="responsive">
+                </div>
+            {% endif %}
         </div>
 
         <div class="container container_white">
@@ -27,6 +37,8 @@
                         {{ post.content }}
                     </div>
                 </div>
+
+                {% block after_content %}{% endblock %}
             </div>
         </div>
     </article>

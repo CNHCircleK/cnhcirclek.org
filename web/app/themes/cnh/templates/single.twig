@@ -1,54 +1,19 @@
-{% extends "base.twig" %}
+{% extends "page.twig" %}
 
-{% block content %}
-    <article class="post post-type-{{ post.post_type }}" id="post-{{ post.ID }}">
+{% block post_header_right %}
+    <img src="http://lorempixel.com/60/60" alt="{{ post.author.name }}" class="img-circle">
+    <div class="author">
+        <div class="author__name">{{ post.author.name }}</div>
+        <div class="author__other">Position</div>
+    </div>
+{% endblock %}
 
-        <div class="post__header">
-            <div class="header-wrapper{% if not post.thumbnail %} no-featured-image{% endif %}">
-                <div class="container">
-                    <div class="header-content">
-                        <div class="row row_valign">
-                            <div class="col-sm-6">
-                                <h1>{{ post.title }}</h1>
-                                <p>{{ post.post_date|date }}</p>
-                            </div>
-
-                            <div class="col-sm-6 text-right">
-                                <img src="http://lorempixel.com/60/60" alt="{{ post.author.name }}" class="img-circle">
-                                <div class="author">
-                                    <div class="author__name">{{ post.author.name }}</div>
-                                    <div class="author__other">Position</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            {% if post.thumbnail.src %}
-            <div class="header-image">
-                <img src="{{ function('bloginfo','template_directory') }}/dist/images/stc_south.jpg" alt=""
-                     class="responsive">
-            </div>
-            {% endif %}
-        </div>
-
-        <div class="container container_white">
-            <div class="post__content">
-                <div class="row">
-                    <div class="col-xs-12">
-                        {{ post.content }}
-                    </div>
-                </div>
-
-                {% if post.comment_status != 'closed' %}
-                    <div class="row">
-                        <div class="col-xs-12">
-                            {# Disqus goes here #}
-                        </div>
-                    </div>
-                {% endif %}
+{% block after_content %}
+    {% if post.comment_status != 'closed' %}
+        <div class="row">
+            <div class="col-xs-12">
+                {# Disqus goes here #}
             </div>
         </div>
-    </article>
+    {% endif %}
 {% endblock %}
