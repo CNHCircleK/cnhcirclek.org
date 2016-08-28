@@ -1,115 +1,120 @@
-<div id="front-page">
-    <section class="hero">
-        <div class="container">
-            <div class="jumbotron-header">
-                <h1 class="frost-panel">We are CNH Circle K</h1>
-            </div>
+{% extends 'base.twig' %}
 
-            <div class="jumbotron frost-panel">
-                <p class="lead">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eius esse facilis, illo laborum
-                    magnam
-                    molestias soluta tempore veritatis voluptates. Deserunt facere minus molestiae nemo non praesentium
-                    quis
-                    reiciendis totam.
-                </p>
-
-                <a href="#" class="btn btn-primary">Our History</a>
-                <a href="#" class="btn btn-primary">Our Service</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="tenets">
-        <div class="container">
-            <div class="row">
-                {% for i in 0..2 %}
-                    <div class="col-sm-4 tenet">
-                        <div class="tenet__bg">
-                            <img src="http://lorempixel.com/400/400">
-                        </div>
-                        <div class="tenet__body">
-                            <h3>Service</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ducimus earum eius
-                                eligendi</p>
-
-                            <a href="#">Learn more</a>
-                        </div>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
-    </section>
-
-    <section id="we-support" class="text-center">
-        <div class="container">
-            <div class="we-support__wrapper">
-                <div class="we-support__header">
-                    We support
+{% block content %}
+    <div id="front-page">
+        <section class="hero">
+            <div class="container">
+                <div class="jumbotron-header">
+                    <h1 class="frost-panel">We are CNH Circle K</h1>
                 </div>
-                <div class="supportee">
-                    <a href="#">
-                        <img src="{{ function('bloginfo','template_directory') }}/dist/images/partners/kiwanisfamilyhouse.png"
-                             alt="Kiwanis Family House">
-                    </a>
-                </div>
-                <div class="supportee">
-                    <a href="#">
-                        <img src="{{ function('bloginfo','template_directory') }}/dist/images/partners/ptp.jpg"
-                             alt="Pediatric Trauma Program">
-                    </a>
-                </div>
-                <div class="supportee">
-                    <a href="#">
-                        <img src="{{ function('bloginfo','template_directory') }}/dist/images/partners/unicef.png"
-                             alt="UNICEF">
-                    </a>
+
+                <div class="jumbotron frost-panel">
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eius esse facilis, illo laborum
+                        magnam
+                        molestias soluta tempore veritatis voluptates. Deserunt facere minus molestiae nemo non
+                        praesentium
+                        quis
+                        reiciendis totam.
+                    </p>
+
+                    <a href="#" class="btn btn-primary">Our History</a>
+                    <a href="#" class="btn btn-primary">Our Service</a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="news" class="row">
-        <div class="container">
-            <div class="col-md-8">
-                <h2>News</h2>
-
-                {% for post in posts %}
-                    <article class="teaser panel panel-default">
-                        <div class="panel-body">
-                            <h3>{{ post.title }}</h3>
-
-                            <p class="date">{{ post.post_date|date }}</p>
-
-                            <p>
-                                {{ post.get_preview(50, true, '') }}
-                            </p>
-                        </div>
-                        <div class="panel-footer clearfix">
-                            <div class="teaser__author">Posted by <a
-                                        href="{{ post.author.link }}">{{ post.author.name }}</a></div>
-
-                            <a href="{{ post.link }}" class="btn btn-primary btn-sm pull-right">Read More</a>
-                        </div>
-                    </article>
-                {% endfor %}
-            </div>
-
-            <div class="col-md-4">
-                <h2>Upcoming Events</h2>
-                <div class="list-group">
+        <section id="tenets">
+            <div class="container">
+                <div class="row">
                     {% for i in 0..2 %}
-                        <a href="#" class="list-group-item">
-                            <p><strong>District Convention</strong></p>
+                        <div class="col-sm-4 tenet">
+                            <div class="tenet__bg">
+                                <img src="http://lorempixel.com/400/400">
+                            </div>
+                            <div class="tenet__body">
+                                <h3>Service</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ducimus earum eius
+                                    eligendi</p>
 
-                            <p>March 17, 2016 | 7PM - 11PM</p>
-
-                            <p>Burbank, California</p>
-                        </a>
+                                <a href="#">Learn more</a>
+                            </div>
+                        </div>
                     {% endfor %}
-                    <a href="#" class="list-group-item list-group-item-primary">Go to Calendar</a>
                 </div>
             </div>
-        </div>
-    </section>
-</div>
+        </section>
+
+        <section id="we-support" class="text-center">
+            <div class="container">
+                <div class="we-support__wrapper">
+                    <div class="we-support__header">
+                        We support
+                    </div>
+                    <div class="supportee">
+                        <a href="#">
+                            <img src="{{ function('bloginfo','template_directory') }}/dist/images/partners/kiwanisfamilyhouse.png"
+                                 alt="Kiwanis Family House">
+                        </a>
+                    </div>
+                    <div class="supportee">
+                        <a href="#">
+                            <img src="{{ function('bloginfo','template_directory') }}/dist/images/partners/ptp.jpg"
+                                 alt="Pediatric Trauma Program">
+                        </a>
+                    </div>
+                    <div class="supportee">
+                        <a href="#">
+                            <img src="{{ function('bloginfo','template_directory') }}/dist/images/partners/unicef.png"
+                                 alt="UNICEF">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="row">
+            <div class="container">
+                <div class="col-md-8">
+                    <h2>News</h2>
+
+                    {% for post in posts %}
+                        <article class="teaser panel panel-default">
+                            <div class="panel-body">
+                                <h3>{{ post.title }}</h3>
+
+                                <p class="date">{{ post.post_date|date }}</p>
+
+                                <p>
+                                    {{ post.get_preview(50, true, '') }}
+                                </p>
+                            </div>
+                            <div class="panel-footer clearfix">
+                                <div class="teaser__author">Posted by <a
+                                            href="{{ post.author.link }}">{{ post.author.name }}</a></div>
+
+                                <a href="{{ post.link }}" class="btn btn-primary btn-sm pull-right">Read More</a>
+                            </div>
+                        </article>
+                    {% endfor %}
+                </div>
+
+                <div class="col-md-4">
+                    <h2>Upcoming Events</h2>
+                    <div class="list-group">
+                        {% for i in 0..2 %}
+                            <a href="#" class="list-group-item">
+                                <p><strong>District Convention</strong></p>
+
+                                <p>March 17, 2016 | 7PM - 11PM</p>
+
+                                <p>Burbank, California</p>
+                            </a>
+                        {% endfor %}
+                        <a href="#" class="list-group-item list-group-item-primary">Go to Calendar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+{% endblock content %}
