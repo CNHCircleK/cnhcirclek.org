@@ -1,0 +1,33 @@
+{% extends "base.twig" %}
+
+{% block content %}
+    <article class="post post-type-{{ post.post_type }}" id="post-{{ post.ID }}">
+
+        <div class="post__header">
+            <div class="header-wrapper">
+                <div class="container">
+                    <div class="header-content">
+                        <div class="row row_valign">
+                            <div class="col-sm-6">
+                                <h1>{{ post.title }}</h1>
+                                <p>{{ post.post_date|date }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-image"></div>
+        </div>
+
+        <div class="container container_white">
+            <div class="post__content">
+                <div class="row">
+                    <div class="col-xs-12">
+                        {{ post.content }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+{% endblock %}
