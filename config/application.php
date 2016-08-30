@@ -74,6 +74,7 @@ define('NONCE_SALT', env('NONCE_SALT'));
 define('AUTOMATIC_UPDATER_DISABLED', true);
 define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);
 define('DISALLOW_FILE_EDIT', true);
+define('JETPACK_DEV_DEBUG', env('WP_ENV') == 'development'); // Set to true if the environment is development
 
 /**
  * Bootstrap WordPress
