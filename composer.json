@@ -44,7 +44,8 @@
     "wpackagist-plugin/timber-library": "^1.1",
     "timber/timber": "^1.1",
     "wpackagist-plugin/siteorigin-panels": "^2.4",
-    "wpackagist-plugin/so-widgets-bundle": "^1.6"
+    "wpackagist-plugin/so-widgets-bundle": "^1.6",
+    "wpackagist-plugin/disqus-comment-system": "^2.85"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"

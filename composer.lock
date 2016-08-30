@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f321b5bef2f82a5b7a53e2082410bdaf",
-    "content-hash": "c94793cfe57a6bcc6eb8d4c927a9ba13",
+    "hash": "865fee88c0712fd274c15d4b69a8d3a9",
+    "content-hash": "80cb4ab193a25c70ca9dba38f3383623",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -639,6 +639,26 @@
             "homepage": "https://wordpress.org/plugins/buddypress/"
         },
         {
+            "name": "wpackagist-plugin/disqus-comment-system",
+            "version": "2.85",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disqus-comment-system/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disqus-comment-system.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disqus-comment-system/"
+        },
+        {
             "name": "wpackagist-plugin/duplicator",
             "version": "1.1.14",
             "source": {
@@ -689,7 +709,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.6.4.zip",
-                "reference": null,
+                "reference": "tags/1.6.4",
                 "shasum": null
             },
             "require": {
