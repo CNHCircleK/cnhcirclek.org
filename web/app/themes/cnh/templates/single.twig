@@ -10,9 +10,11 @@
 
 {% block after_content %}
     {% if post.comment_status != 'closed' %}
-        <div class="row">
-            <div class="col-xs-12">
-                {# Disqus goes here #}
+        <div id="comments">
+            <div class="row">
+                <div class="col-xs-12">
+                    {{ fn('comments_template') }}
+                </div>
             </div>
         </div>
     {% endif %}

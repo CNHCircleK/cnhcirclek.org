@@ -46,6 +46,7 @@ class StarterSite extends TimberSite {
         add_filter( 'get_twig', array( $this, 'add_to_twig' ) );
         add_action( 'init', array( $this, 'register_post_types' ) );
         add_action( 'init', array( $this, 'register_taxonomies' ) );
+	    add_action( 'wp_enqueue_scripts', array( $this, 'add_theme_scripts' ));
         parent::__construct();
     }
     function register_post_types() {
@@ -62,9 +63,10 @@ class StarterSite extends TimberSite {
         $context['site'] = $this;
         return $context;
     }
-    function myfoo( $text ) {
-        $text .= ' bar!';
-        return $text;
+    function add_theme_scripts() {
+	    if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+		    wp_enqueue_script( 'comment-reply' );
+	    }
     }
     function add_to_twig( $twig ) {
         /* this is where you can add your own fuctions to twig */
