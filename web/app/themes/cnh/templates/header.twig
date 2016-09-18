@@ -23,17 +23,15 @@
                 <ul class="nav navbar-nav">
                     {% for item in menu.get_items %}
                         {% if item.get_children %}
-                            <li class="dropdown">
-                                <ul class="nav-drop">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                       aria-haspopup="true" aria-expanded="false">
-                                        {{ item.title }} <span class="caret"></span>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        {% for child in item.get_children %}
-                                            <li><a href="{{ child.get_link }}">{{ child.title }}</a></li>
-                                        {% endfor %}
-                                    </ul>
+                            <li class="{{ item.classes | join(' ') }} dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                   aria-haspopup="true" aria-expanded="false">
+                                    {{ item.title }} <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    {% for child in item.get_children %}
+                                        <li><a href="{{ child.get_link }}">{{ child.title }}</a></li>
+                                    {% endfor %}
                                 </ul>
                             </li>
                         {% else %}
