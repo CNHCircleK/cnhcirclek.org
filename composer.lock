@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "55dbf3c4eaf514fe7e8d0eed33c3c50d",
-    "content-hash": "ba347339c5b3f56ac80c88436357b088",
+    "hash": "505d2cb449c81ba340fdcddfdafaade5",
+    "content-hash": "98863e2854f69a3deed8821103d4176f",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -214,16 +214,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.5",
+            "version": "4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "a975896d0806f3dc1ccf3e170f91226440b267cb"
+                "reference": "1fb4b67e331d82f9061eaf3fcbc94163db85c135"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/a975896d0806f3dc1ccf3e170f91226440b267cb",
-                "reference": "a975896d0806f3dc1ccf3e170f91226440b267cb",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/1fb4b67e331d82f9061eaf3fcbc94163db85c135",
+                "reference": "1fb4b67e331d82f9061eaf3fcbc94163db85c135",
                 "shasum": ""
             },
             "require": {
@@ -247,7 +247,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-04-12 17:46:20"
+            "time": "2016-08-16 18:32:04"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -398,16 +398,16 @@
         },
         {
             "name": "timber/timber",
-            "version": "1.1.2",
+            "version": "1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/timber/timber.git",
-                "reference": "bd4b9c4b791f5e15a951204085eca31dc44cdb82"
+                "reference": "7631b3dd3e37a100c6cbc23522b1f3630e907d58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/timber/timber/zipball/bd4b9c4b791f5e15a951204085eca31dc44cdb82",
-                "reference": "bd4b9c4b791f5e15a951204085eca31dc44cdb82",
+                "url": "https://api.github.com/repos/timber/timber/zipball/7631b3dd3e37a100c6cbc23522b1f3630e907d58",
+                "reference": "7631b3dd3e37a100c6cbc23522b1f3630e907d58",
                 "shasum": ""
             },
             "require": {
@@ -422,7 +422,8 @@
                 "phpdocumentor/phpdocumentor": "2.*",
                 "phpunit/phpunit": "~4.0",
                 "satooshi/php-coveralls": "1.0.*",
-                "wpackagist-plugin/advanced-custom-fields": "4.*"
+                "wpackagist-plugin/advanced-custom-fields": "4.*",
+                "wpackagist-plugin/co-authors-plus": "3.*"
             },
             "type": "library",
             "autoload": {
@@ -454,20 +455,20 @@
                 "timber",
                 "twig"
             ],
-            "time": "2016-08-02 20:55:45"
+            "time": "2016-09-15 03:46:53"
         },
         {
             "name": "twig/twig",
-            "version": "v1.24.1",
+            "version": "v1.24.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512"
+                "reference": "33093f6e310e6976baeac7b14f3a6ec02f2d79b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3566d311a92aae4deec6e48682dc5a4528c4a512",
-                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/33093f6e310e6976baeac7b14f3a6ec02f2d79b7",
+                "reference": "33093f6e310e6976baeac7b14f3a6ec02f2d79b7",
                 "shasum": ""
             },
             "require": {
@@ -515,7 +516,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-05-30 09:11:59"
+            "time": "2016-09-01 17:50:53"
         },
         {
             "name": "upstatement/routes",
@@ -570,16 +571,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.3.0",
+            "version": "v2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "9ca5644c536654e9509b9d257f53c58630eb2a6a"
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/9ca5644c536654e9509b9d257f53c58630eb2a6a",
-                "reference": "9ca5644c536654e9509b9d257f53c58630eb2a6a",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
                 "shasum": ""
             },
             "require": {
@@ -591,7 +592,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "2.4-dev"
                 }
             },
             "autoload": {
@@ -616,20 +617,20 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-06-14 14:14:52"
+            "time": "2016-09-01 10:05:43"
         },
         {
             "name": "wpackagist-plugin/buddypress",
-            "version": "2.6.1.1",
+            "version": "2.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/buddypress/",
-                "reference": "tags/2.6.1.1"
+                "reference": "tags/2.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/buddypress.2.6.1.1.zip",
-                "reference": "tags/2.6.1.1",
+                "url": "https://downloads.wordpress.org/plugin/buddypress.2.6.2.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -660,16 +661,16 @@
         },
         {
             "name": "wpackagist-plugin/duplicator",
-            "version": "1.1.14",
+            "version": "1.1.16",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/duplicator/",
-                "reference": "tags/1.1.14"
+                "reference": "tags/1.1.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duplicator.1.1.14.zip",
-                "reference": "tags/1.1.14",
+                "url": "https://downloads.wordpress.org/plugin/duplicator.1.1.16.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -689,7 +690,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/google-calendar-events.3.1.4.zip",
-                "reference": null,
+                "reference": "tags/3.1.4",
                 "shasum": null
             },
             "require": {
@@ -700,16 +701,16 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "4.2.2",
+            "version": "4.3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/4.2.2"
+                "reference": "tags/4.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.4.2.2.zip",
-                "reference": "tags/4.2.2",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.4.3.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -720,16 +721,16 @@
         },
         {
             "name": "wpackagist-plugin/siteorigin-panels",
-            "version": "2.4.10",
+            "version": "2.4.15",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
-                "reference": "tags/2.4.10"
+                "reference": "tags/2.4.15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.10.zip",
-                "reference": "tags/2.4.10",
+                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.15.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -740,16 +741,16 @@
         },
         {
             "name": "wpackagist-plugin/so-widgets-bundle",
-            "version": "1.6.4",
+            "version": "1.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/so-widgets-bundle/",
-                "reference": "tags/1.6.4"
+                "reference": "tags/1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.6.4.zip",
-                "reference": "tags/1.6.4",
+                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.7.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -759,37 +760,17 @@
             "homepage": "https://wordpress.org/plugins/so-widgets-bundle/"
         },
         {
-            "name": "wpackagist-plugin/the-events-calendar",
-            "version": "4.2.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/the-events-calendar/",
-                "reference": "tags/4.2.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.4.2.7.zip",
-                "reference": "tags/4.2.7",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/the-events-calendar/"
-        },
-        {
             "name": "wpackagist-plugin/timber-library",
-            "version": "1.1.2",
+            "version": "1.1.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/timber-library/",
-                "reference": "tags/1.1.2"
+                "reference": "tags/1.1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/timber-library.1.1.2.zip",
-                "reference": "tags/1.1.2",
+                "url": "https://downloads.wordpress.org/plugin/timber-library.1.1.6.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -802,16 +783,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.6.2",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "4edb770cb853def6e60c93abb088ad5ac2010c83"
+                "reference": "571e27b6348e5b3a637b2abc82ac0d01e6d7bbed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/4edb770cb853def6e60c93abb088ad5ac2010c83",
-                "reference": "4edb770cb853def6e60c93abb088ad5ac2010c83",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/571e27b6348e5b3a637b2abc82ac0d01e6d7bbed",
+                "reference": "571e27b6348e5b3a637b2abc82ac0d01e6d7bbed",
                 "shasum": ""
             },
             "require": {
@@ -876,7 +857,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-07-13 23:29:13"
+            "time": "2016-09-01 23:53:02"
         }
     ],
     "aliases": [],
