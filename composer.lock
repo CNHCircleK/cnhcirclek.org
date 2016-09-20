@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0178662ab4288036856fc10b5ff0ab13",
-    "content-hash": "d40c690d1dfd14ee4842218b4058c870",
+    "hash": "55dbf3c4eaf514fe7e8d0eed33c3c50d",
+    "content-hash": "ba347339c5b3f56ac80c88436357b088",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -679,6 +679,26 @@
             "homepage": "https://wordpress.org/plugins/duplicator/"
         },
         {
+            "name": "wpackagist-plugin/google-calendar-events",
+            "version": "3.1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-calendar-events/",
+                "reference": "tags/3.1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-calendar-events.3.1.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-calendar-events/"
+        },
+        {
             "name": "wpackagist-plugin/jetpack",
             "version": "4.2.2",
             "source": {
@@ -689,7 +709,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/jetpack.4.2.2.zip",
-                "reference": null,
+                "reference": "tags/4.2.2",
                 "shasum": null
             },
             "require": {
@@ -737,6 +757,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/so-widgets-bundle/"
+        },
+        {
+            "name": "wpackagist-plugin/the-events-calendar",
+            "version": "4.2.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/the-events-calendar/",
+                "reference": "tags/4.2.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.4.2.7.zip",
+                "reference": "tags/4.2.7",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/the-events-calendar/"
         },
         {
             "name": "wpackagist-plugin/timber-library",
