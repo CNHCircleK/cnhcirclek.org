@@ -5,21 +5,17 @@
         <section class="hero">
             <div class="container">
                 <div class="jumbotron-header">
-                    <h1 class="frost-panel">We are CNH Circle K</h1>
+                    <h1 class="frost-panel">Welcome to CNH</h1>
                 </div>
 
                 <div class="jumbotron frost-panel">
                     <p class="lead">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eius esse facilis, illo laborum
-                        magnam
-                        molestias soluta tempore veritatis voluptates. Deserunt facere minus molestiae nemo non
-                        praesentium
-                        quis
-                        reiciendis totam.
+                        Our organization of more than 3,200 college students across California, Nevada, and Hawaii
+                        believes in enriching the world through community service - one member, one child and one
+                        community at a time.
                     </p>
 
-                    <a href="#" class="btn btn-primary">Our History</a>
-                    <a href="#" class="btn btn-primary">Our Service</a>
+                    <a href="{{ fn('get_permalink', 59) }}" class="white h4">Learn more</a>
                 </div>
             </div>
         </section>
@@ -27,20 +23,44 @@
         <section id="tenets">
             <div class="container">
                 <div class="row">
-                    {% for i in 0..2 %}
-                        <div class="col-sm-4 tenet">
-                            <div class="tenet__bg">
-                                <img src="http://lorempixel.com/400/400">
-                            </div>
-                            <div class="tenet__body">
-                                <h3>Service</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ducimus earum eius
-                                    eligendi</p>
-
-                                <a href="#">Learn more</a>
-                            </div>
+                    <div class="col-sm-4 tenet">
+                        <div class="tenet__bg">
+                            <img src="{{ function('bloginfo','template_directory') }}/dist/images/service.jpg">
                         </div>
-                    {% endfor %}
+                        <div class="tenet__body">
+                            <h3>Service</h3>
+                            <p>Collectively, Circle K members perform more than one million hours of service on their
+                                campuses and in their communities annually.</p>
+
+                            <a href="{{ fn('get_permalink', 68) }}" class="white">Learn more about how we serve</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 tenet">
+                        <div class="tenet__bg">
+                            <img src="{{ function('bloginfo','template_directory') }}/dist/images/leadership.jpg">
+                        </div>
+                        <div class="tenet__body">
+                            <h3>Leadership</h3>
+                            <p>Circle K members assume leadership responsibilities at all levels of the organization and
+                                actively contributing to the operation of their respective clubs, divisions, and
+                                communities. </p>
+
+                            <a href="#" class="white">Our leaders</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 tenet">
+                        <div class="tenet__bg">
+                            <img src="{{ function('bloginfo','template_directory') }}/dist/images/fellowship.jpg">
+                        </div>
+                        <div class="tenet__body">
+                            <h3>Fellowship</h3>
+                            <p>With each element and aspect of Circle K International, members experience genuine
+                                fellowship and develop life-long relationships with fellow collegians, advisors,
+                                Kiwanians and citizens in their communities.</p>
+
+                            <a href="#" class="white">Our clubs</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -123,7 +143,8 @@
 
                             <p>Sonora, California</p>
                         </a>
-                        <a href="{{ fn('get_permalink', 79) }}" class="list-group-item list-group-item-primary">Go to Calendar</a>
+                        <a href="{{ fn('get_permalink', 79) }}" class="list-group-item list-group-item-primary">Go to
+                            Calendar</a>
                     </div>
                 </div>
             </div>
