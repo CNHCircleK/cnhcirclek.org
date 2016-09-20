@@ -1,5 +1,10 @@
 {% extends "page.twig" %}
 
+{% block post_header_left %}
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.post_date|date }}</p>
+{% endblock %}
+
 {% block post_header_right %}
     <img src="http://lorempixel.com/60/60" alt="{{ post.author.name }}" class="img-circle">
     <div class="author">
