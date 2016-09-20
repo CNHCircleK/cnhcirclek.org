@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "505d2cb449c81ba340fdcddfdafaade5",
-    "content-hash": "98863e2854f69a3deed8821103d4176f",
+    "hash": "883ed79efbe93479d23b6bb4d128c387",
+    "content-hash": "2ae00db9b7393547d9bf2b00263d9022",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -630,7 +630,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/buddypress.2.6.2.zip",
-                "reference": null,
+                "reference": "tags/2.6.2",
                 "shasum": null
             },
             "require": {
@@ -670,7 +670,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/duplicator.1.1.16.zip",
-                "reference": null,
+                "reference": "tags/1.1.16",
                 "shasum": null
             },
             "require": {
@@ -710,7 +710,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/jetpack.4.3.1.zip",
-                "reference": null,
+                "reference": "tags/4.3.1",
                 "shasum": null
             },
             "require": {
@@ -730,7 +730,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.15.zip",
-                "reference": null,
+                "reference": "tags/2.4.15",
                 "shasum": null
             },
             "require": {
@@ -750,7 +750,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.7.zip",
-                "reference": null,
+                "reference": "tags/1.7",
                 "shasum": null
             },
             "require": {
@@ -770,7 +770,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/timber-library.1.1.6.zip",
-                "reference": null,
+                "reference": "tags/1.1.6",
                 "shasum": null
             },
             "require": {
@@ -778,6 +778,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/timber-library/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-all-import",
+            "version": "3.3.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-all-import/",
+                "reference": "tags/3.3.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-all-import.3.3.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-all-import/"
         }
     ],
     "packages-dev": [
