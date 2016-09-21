@@ -16,8 +16,18 @@
     padding-top: 40px;
 
     .frost-panel {
+      position: relative;
       color: white;
       background-color: rgba(5, 48, 87, .82);
+
+      .stripes-corner {
+        position: absolute;
+        background: url(../images/stripes-white.png) center;
+        background-size: 120% auto;
+        width: 275px;
+        height: 60px;
+        right: -90px;
+      }
     }
 
     .jumbotron-header {
