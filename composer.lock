@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7a5d89c49de934c2df454d341a684069",
-    "content-hash": "faf2947ebf8dac78245a50403baa3615",
+    "hash": "e170f79d69ddf9d68c46ab994042556c",
+    "content-hash": "2ea2869836708bcc805ed65f473481b7",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -790,7 +790,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.4.4.1.zip",
-                "reference": null,
+                "reference": "tags/4.4.1",
                 "shasum": null
             },
             "require": {
@@ -818,6 +818,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-all-import/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-editor",
+            "version": "1.2.6.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-editor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-editor.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-editor/"
         }
     ],
     "packages-dev": [

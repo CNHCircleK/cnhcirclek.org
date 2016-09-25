@@ -49,7 +49,8 @@
     "wpackagist-plugin/jetpack": "^4.2",
     "wpackagist-plugin/google-calendar-events": "^3.1",
     "wpackagist-plugin/wp-all-import": "^3.3",
-    "wpackagist-plugin/tinymce-advanced": "^4.4"
+    "wpackagist-plugin/tinymce-advanced": "^4.4",
+    "wpackagist-plugin/wp-editor": "1.2.6.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
