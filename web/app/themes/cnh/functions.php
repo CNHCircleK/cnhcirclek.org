@@ -47,6 +47,7 @@ class StarterSite extends TimberSite {
         add_action( 'init', array( $this, 'register_post_types' ) );
         add_action( 'init', array( $this, 'register_taxonomies' ) );
 	    add_action( 'wp_enqueue_scripts', array( $this, 'add_theme_scripts' ));
+	    add_filter( 'tiny_mce_before_init', array( $this, 'tinyMCE'));
         parent::__construct();
     }
     function register_post_types() {
@@ -73,6 +74,13 @@ class StarterSite extends TimberSite {
         $twig->addExtension( new Twig_Extension_StringLoader() );
         $twig->addFilter('myfoo', new Twig_SimpleFilter('myfoo', array($this, 'myfoo')));
         return $twig;
+    }
+
+    function tinyMCE($in) {
+	    $opts = '*[*]';
+	    $in['valid_elements'] = $opts;
+	    $in['extended_valid_elements'] = $opts;
+	    return $in;
     }
 }
 new StarterSite();
