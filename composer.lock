@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "883ed79efbe93479d23b6bb4d128c387",
-    "content-hash": "2ae00db9b7393547d9bf2b00263d9022",
+    "hash": "7a5d89c49de934c2df454d341a684069",
+    "content-hash": "faf2947ebf8dac78245a50403baa3615",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -780,6 +780,26 @@
             "homepage": "https://wordpress.org/plugins/timber-library/"
         },
         {
+            "name": "wpackagist-plugin/tinymce-advanced",
+            "version": "4.4.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/tinymce-advanced/",
+                "reference": "tags/4.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.4.4.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/tinymce-advanced/"
+        },
+        {
             "name": "wpackagist-plugin/wp-all-import",
             "version": "3.3.7",
             "source": {
@@ -790,7 +810,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-all-import.3.3.7.zip",
-                "reference": null,
+                "reference": "tags/3.3.7",
                 "shasum": null
             },
             "require": {
