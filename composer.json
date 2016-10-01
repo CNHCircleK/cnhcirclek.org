@@ -52,7 +52,8 @@
     "wpackagist-plugin/tinymce-advanced": "^4.4",
     "wpackagist-plugin/wp-editor": "1.2.6.2",
     "wpackagist-plugin/import-users-from-csv-with-meta": "^1.9",
-    "wpackagist-plugin/hide-admin-bar-from-non-admins": "^1.0"
+    "wpackagist-plugin/hide-admin-bar-from-non-admins": "^1.0",
+    "wpackagist-plugin/google-analytics-for-wordpress": "^5.5"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1",
