@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cc404a50b3df8b255e821cc19001b8a1",
-    "content-hash": "e991abe0b21f49a66df4550e14520172",
+    "hash": "307901cc4a15500bb8321ec98907de52",
+    "content-hash": "4a6b2fec50bdfb222f2ea2e705563845",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -690,7 +690,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.5.2.zip",
-                "reference": null,
+                "reference": "tags/5.5.2",
                 "shasum": null
             },
             "require": {
@@ -860,6 +860,26 @@
             "homepage": "https://wordpress.org/plugins/tinymce-advanced/"
         },
         {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "3.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/3.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
             "name": "wpackagist-plugin/wp-all-import",
             "version": "3.3.7",
             "source": {
@@ -990,7 +1010,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/theme-check.20160523.1.zip",
-                "reference": null,
+                "reference": "tags/20160523.1",
                 "shasum": null
             },
             "require": {
