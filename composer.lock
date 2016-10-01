@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "307901cc4a15500bb8321ec98907de52",
-    "content-hash": "4a6b2fec50bdfb222f2ea2e705563845",
+    "hash": "40bb9f68ab123fd5877488a70f309177",
+    "content-hash": "0f3cce1805f8db4352bcdc4b25b9ee24",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -860,6 +860,26 @@
             "homepage": "https://wordpress.org/plugins/tinymce-advanced/"
         },
         {
+            "name": "wpackagist-plugin/user-role-editor",
+            "version": "4.27.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/user-role-editor/",
+                "reference": "tags/4.27.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.27.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/user-role-editor/"
+        },
+        {
             "name": "wpackagist-plugin/wordpress-seo",
             "version": "3.6",
             "source": {
@@ -870,7 +890,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.6.zip",
-                "reference": null,
+                "reference": "tags/3.6",
                 "shasum": null
             },
             "require": {
