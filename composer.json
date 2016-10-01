@@ -51,10 +51,12 @@
     "wpackagist-plugin/wp-all-import": "^3.3",
     "wpackagist-plugin/tinymce-advanced": "^4.4",
     "wpackagist-plugin/wp-editor": "1.2.6.2",
-    "wpackagist-plugin/import-users-from-csv-with-meta": "^1.9"
+    "wpackagist-plugin/import-users-from-csv-with-meta": "^1.9",
+    "wpackagist-plugin/hide-admin-bar-from-non-admins": "^1.0"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^2.5.1"
+    "squizlabs/php_codesniffer": "^2.5.1",
+    "wpackagist-plugin/theme-check": "20160523.1"
   },
   "extra": {
     "installer-paths": {

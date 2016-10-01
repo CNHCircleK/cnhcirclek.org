@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d5465425a44e4c6a551331b85b5e5aae",
-    "content-hash": "acdce116dfc61557e55093634563e070",
+    "hash": "25c8030d376b5a738e0c28c74a5062b1",
+    "content-hash": "3a37c4ce3cf871c21bbf920e7d72e3e5",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -700,6 +700,26 @@
             "homepage": "https://wordpress.org/plugins/google-calendar-events/"
         },
         {
+            "name": "wpackagist-plugin/hide-admin-bar-from-non-admins",
+            "version": "1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/hide-admin-bar-from-non-admins/",
+                "reference": "tags/1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/hide-admin-bar-from-non-admins.1.0.zip",
+                "reference": "tags/1.0",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/hide-admin-bar-from-non-admins/"
+        },
+        {
             "name": "wpackagist-plugin/import-users-from-csv-with-meta",
             "version": "1.9.7",
             "source": {
@@ -710,7 +730,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/import-users-from-csv-with-meta.zip",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -938,6 +958,26 @@
                 "standards"
             ],
             "time": "2016-09-01 23:53:02"
+        },
+        {
+            "name": "wpackagist-plugin/theme-check",
+            "version": "20160523.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/theme-check/",
+                "reference": "tags/20160523.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/theme-check.20160523.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/theme-check/"
         }
     ],
     "aliases": [],
