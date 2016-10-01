@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e170f79d69ddf9d68c46ab994042556c",
-    "content-hash": "2ea2869836708bcc805ed65f473481b7",
+    "hash": "d5465425a44e4c6a551331b85b5e5aae",
+    "content-hash": "acdce116dfc61557e55093634563e070",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -700,6 +700,26 @@
             "homepage": "https://wordpress.org/plugins/google-calendar-events/"
         },
         {
+            "name": "wpackagist-plugin/import-users-from-csv-with-meta",
+            "version": "1.9.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/import-users-from-csv-with-meta/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/import-users-from-csv-with-meta.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/import-users-from-csv-with-meta/"
+        },
+        {
             "name": "wpackagist-plugin/jetpack",
             "version": "4.3.1",
             "source": {
@@ -830,7 +850,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-editor.zip",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
