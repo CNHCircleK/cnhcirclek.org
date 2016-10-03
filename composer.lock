@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "adaf7e9e9f0c0f4d64f4f06b5c1cfef5",
-    "content-hash": "1679e77d1f82de41f0862ab9356ffbac",
+    "hash": "38ad1dc57cba5ff9988a0f6adf91391f",
+    "content-hash": "e042f0c2f5744e38e5546135aeee34a5",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -214,16 +214,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.6",
+            "version": "4.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "1fb4b67e331d82f9061eaf3fcbc94163db85c135"
+                "reference": "aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/1fb4b67e331d82f9061eaf3fcbc94163db85c135",
-                "reference": "1fb4b67e331d82f9061eaf3fcbc94163db85c135",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3",
+                "reference": "aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3",
                 "shasum": ""
             },
             "require": {
@@ -247,7 +247,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-08-16 18:32:04"
+            "time": "2016-09-07 15:01:47"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -459,16 +459,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.24.2",
+            "version": "v1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "33093f6e310e6976baeac7b14f3a6ec02f2d79b7"
+                "reference": "81c2b5fd36581370c7731387f05dcdb577050513"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/33093f6e310e6976baeac7b14f3a6ec02f2d79b7",
-                "reference": "33093f6e310e6976baeac7b14f3a6ec02f2d79b7",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/81c2b5fd36581370c7731387f05dcdb577050513",
+                "reference": "81c2b5fd36581370c7731387f05dcdb577050513",
                 "shasum": ""
             },
             "require": {
@@ -481,7 +481,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.24-dev"
+                    "dev-master": "1.26-dev"
                 }
             },
             "autoload": {
@@ -516,7 +516,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-09-01 17:50:53"
+            "time": "2016-10-02 16:19:13"
         },
         {
             "name": "upstatement/routes",
@@ -701,16 +701,16 @@
         },
         {
             "name": "wpackagist-plugin/google-calendar-events",
-            "version": "3.1.4",
+            "version": "3.1.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-calendar-events/",
-                "reference": "tags/3.1.4"
+                "reference": "tags/3.1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-calendar-events.3.1.4.zip",
-                "reference": "tags/3.1.4",
+                "url": "https://downloads.wordpress.org/plugin/google-calendar-events.3.1.6.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -781,16 +781,16 @@
         },
         {
             "name": "wpackagist-plugin/siteorigin-panels",
-            "version": "2.4.15",
+            "version": "2.4.16",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
-                "reference": "tags/2.4.15"
+                "reference": "tags/2.4.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.15.zip",
-                "reference": "tags/2.4.15",
+                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.16.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -801,16 +801,16 @@
         },
         {
             "name": "wpackagist-plugin/so-widgets-bundle",
-            "version": "1.7",
+            "version": "1.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/so-widgets-bundle/",
-                "reference": "tags/1.7"
+                "reference": "tags/1.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.7.zip",
-                "reference": "tags/1.7",
+                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.7.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -901,16 +901,16 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.6",
+            "version": "3.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.6"
+                "reference": "tags/3.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.6.zip",
-                "reference": "tags/3.6",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.6.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -921,16 +921,16 @@
         },
         {
             "name": "wpackagist-plugin/wp-all-import",
-            "version": "3.3.7",
+            "version": "3.3.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-all-import/",
-                "reference": "tags/3.3.7"
+                "reference": "tags/3.3.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-all-import.3.3.7.zip",
-                "reference": "tags/3.3.7",
+                "url": "https://downloads.wordpress.org/plugin/wp-all-import.3.3.8.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
