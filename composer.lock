@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "40bb9f68ab123fd5877488a70f309177",
-    "content-hash": "0f3cce1805f8db4352bcdc4b25b9ee24",
+    "hash": "adaf7e9e9f0c0f4d64f4f06b5c1cfef5",
+    "content-hash": "1679e77d1f82de41f0862ab9356ffbac",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -820,6 +820,26 @@
             "homepage": "https://wordpress.org/plugins/so-widgets-bundle/"
         },
         {
+            "name": "wpackagist-plugin/sparkpost",
+            "version": "2.4.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/sparkpost/",
+                "reference": "tags/2.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/sparkpost.2.4.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/sparkpost/"
+        },
+        {
             "name": "wpackagist-plugin/timber-library",
             "version": "1.1.6",
             "source": {
@@ -870,7 +890,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.27.2.zip",
-                "reference": null,
+                "reference": "tags/4.27.2",
                 "shasum": null
             },
             "require": {
