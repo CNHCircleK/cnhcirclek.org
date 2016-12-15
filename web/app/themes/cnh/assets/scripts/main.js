@@ -141,7 +141,6 @@ function onYouTubeIframeAPIReady() {
     playerVars: {
       'autoplay': 1,
       'controls': 0,
-      'origin': 'http://cnhcirclek.dev',
       'loop': 1,
       'modestbranding': 1
     },
