@@ -1,0 +1,63 @@
+{% extends "base.twig" %}
+
+{% block content %}
+    <article class="post post-type-{{ post.post_type }}" id="post-{{ post.ID }}">
+
+        <section class="dcon__hero">
+            <div class="dcon__video embed-responsive embed-responsive-16by9">
+                <iframe id="dcon__video__iframe" class="embed-responsive-item"
+                        src="//www.youtube.com/embed/1fU1zrZ1xzc?origin=http://cnhcirclek.dev&amp;rel=0&amp;autoplay=1&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;enablejsapi=1&amp;modestbranding=1"
+                        enablejsapi="true"
+                ></iframe>
+            </div>
+        </section>
+
+        <div class="dcon__header">
+            <div class="container dcon__header-container">
+                <div class="row">
+                    <div class="col-md-7 col-lg-8 dcon__banner-wrapper">
+                        <img class="img-responsive"
+                             src="{{ function('bloginfo','template_directory') }}/dist/images/dcon/banner.jpg">
+                    </div>
+
+                    <div class="col-md-5 col-lg-4 dcon__countdown-wrapper">
+                        <div class="dcon__countdown">
+                            <div class="dcon-clock-unit">
+                                <div class="dcon-clock-unit-time" id="dcon-clock-days"></div>
+                                Days
+                            </div>
+
+                            <div class="dcon-clock-unit">
+                                <div class="dcon-clock-unit-time" id="dcon-clock-hours"></div>
+                                Hours
+                            </div>
+
+                            <div class="dcon-clock-unit">
+                                <div class="dcon-clock-unit-time" id="dcon-clock-minutes"></div>
+                                Minutes
+                            </div>
+
+                            <div class="dcon-clock-unit">
+                                <div class="dcon-clock-unit-time" id="dcon-clock-seconds"></div>
+                                Seconds
+                            </div>
+                        </div>
+                        <p>Until district convention</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container container_white">
+            <div class="post__content">
+                <div class="row">
+                    <div class="col-xs-12">
+                        {{ post.content }}
+                    </div>
+                </div>
+
+                {% block after_content %}{% endblock %}
+            </div>
+        </div>
+    </article>
+{% endblock %}

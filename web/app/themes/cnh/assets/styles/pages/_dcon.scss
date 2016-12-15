@@ -1,0 +1,78 @@
+.dcon__hero {
+  width: 100%;
+  text-align: center;
+  min-height: 0;
+  margin-bottom: -20px;
+
+  @media (min-width: $screen-sm-min) {
+    min-height: 250px;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: $screen-md-min) {
+    min-height: 350px;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    min-height: 500px;
+  }
+
+  .dcon__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+    background-color: #000;
+
+    @media (max-width: $screen-sm-min) {
+      display: none;
+    }
+  }
+}
+
+.dcon__header {
+  margin-left: 0;
+  margin-right: 0;
+
+  .dcon__header-container {
+    background-color: #2C6169;
+  }
+
+  .dcon__banner-wrapper {
+    margin: 0;
+    padding: 0;
+  }
+
+  .dcon__countdown-wrapper {
+    margin-top: 15px;
+
+    p {
+      margin-top: 15px;
+      text-transform: uppercase;
+      color: #fff;
+      text-align: center;
+      font-size: $font-size-h3;
+    }
+  }
+}
+
+.dcon__countdown {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.dcon-clock-unit {
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: $font-size-h4;
+  margin: 5px;
+
+  .dcon-clock-unit-time {
+    font-size: $font-size-h1;
+  }
+}
