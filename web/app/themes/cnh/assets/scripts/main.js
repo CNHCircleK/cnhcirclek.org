@@ -10,6 +10,8 @@
  * always reference jQuery with $, even when in .noConflict() mode.
  * ======================================================================== */
 
+var dconVideoPlayer;
+
 (function ($) {
 
   // Use this variable to set up the common and page specific functions. If you
@@ -107,6 +109,8 @@ function initializeClock(endtime) {
   var minutes = document.getElementById('dcon-clock-minutes');
   var seconds = document.getElementById('dcon-clock-seconds');
 
+  var timeinterval;
+
   function updateClock() {
     var t = getTimeRemaining(endtime);
 
@@ -121,7 +125,7 @@ function initializeClock(endtime) {
   }
 
   updateClock();
-  var timeinterval = setInterval(updateClock, 1000);
+  timeinterval = setInterval(updateClock, 1000);
 }
 
 initializeClock(dconTime);
@@ -132,8 +136,6 @@ tag.id = 'dcon__iframe__api';
 tag.src = 'http://www.youtube.com/iframe_api';
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-var dconVideoPlayer;
 
 function onYouTubeIframeAPIReady() {
   dconVideoPlayer = new YT.Player('dcon__video__iframe', {
