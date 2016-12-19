@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "055f3a61f88859ec5eff376c2848d12b",
-    "content-hash": "254577fd5604a09176a8dfd123f087e8",
+    "hash": "a74320da6bf692bdfa8a1d9474f694c0",
+    "content-hash": "fb597596f3ff342e12436179d50f5589",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -630,7 +630,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/buddypress.2.7.3.zip",
-                "reference": null,
+                "reference": "tags/2.7.3",
                 "shasum": null
             },
             "require": {
@@ -650,7 +650,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/disqus-comment-system.2.86.zip",
-                "reference": null,
+                "reference": "tags/2.86",
                 "shasum": null
             },
             "require": {
@@ -670,7 +670,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/duplicator.1.1.24.zip",
-                "reference": null,
+                "reference": "tags/1.1.24",
                 "shasum": null
             },
             "require": {
@@ -690,7 +690,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.5.4.zip",
-                "reference": null,
+                "reference": "tags/5.5.4",
                 "shasum": null
             },
             "require": {
@@ -710,7 +710,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/google-calendar-events.3.1.9.zip",
-                "reference": null,
+                "reference": "tags/3.1.9",
                 "shasum": null
             },
             "require": {
@@ -750,7 +750,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/import-users-from-csv-with-meta.1.9.9.6.zip",
-                "reference": null,
+                "reference": "tags/1.9.9.6",
                 "shasum": null
             },
             "require": {
@@ -770,7 +770,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/jetpack.4.4.2.zip",
-                "reference": null,
+                "reference": "tags/4.4.2",
                 "shasum": null
             },
             "require": {
@@ -778,6 +778,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/"
+        },
+        {
+            "name": "wpackagist-plugin/ninja-forms",
+            "version": "3.0.19",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ninja-forms/",
+                "reference": "tags/3.0.19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.0.19.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ninja-forms/"
         },
         {
             "name": "wpackagist-plugin/siteorigin-panels",
@@ -790,7 +810,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.20.zip",
-                "reference": null,
+                "reference": "tags/2.4.20",
                 "shasum": null
             },
             "require": {
@@ -810,7 +830,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.7.2.zip",
-                "reference": null,
+                "reference": "tags/1.7.2",
                 "shasum": null
             },
             "require": {
@@ -830,7 +850,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/sparkpost.2.5.0.zip",
-                "reference": null,
+                "reference": "tags/2.5.0",
                 "shasum": null
             },
             "require": {
@@ -850,7 +870,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/timber-library.1.1.12.zip",
-                "reference": null,
+                "reference": "tags/1.1.12",
                 "shasum": null
             },
             "require": {
@@ -870,7 +890,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.4.4.3.zip",
-                "reference": null,
+                "reference": "tags/4.4.3",
                 "shasum": null
             },
             "require": {
@@ -890,7 +910,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.31.zip",
-                "reference": null,
+                "reference": "tags/4.31",
                 "shasum": null
             },
             "require": {
@@ -910,7 +930,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.9.zip",
-                "reference": null,
+                "reference": "tags/3.9",
                 "shasum": null
             },
             "require": {
@@ -930,7 +950,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-all-import.3.3.9.zip",
-                "reference": null,
+                "reference": "tags/3.3.9",
                 "shasum": null
             },
             "require": {
