@@ -1,3 +1,24 @@
+$dcon-teal: #008080;
+
+.navbar-dcon {
+  background-color: $dcon-teal;
+  border-color: transparent;
+}
+
+.navbar-brand-dcon {
+  color: white !important;
+}
+
+.navbar-nav-dcon {
+  color: white;
+
+  li {
+    a {
+      color: white !important;
+    }
+  }
+}
+
 .dcon__hero {
   width: 100%;
   text-align: center;
