@@ -129,29 +129,3 @@ function initializeClock(endtime) {
 }
 
 initializeClock(dconTime);
-
-
-var tag = document.createElement('script');
-tag.id = 'dcon__iframe__api';
-tag.src = 'http://www.youtube.com/iframe_api';
-var firstScriptTag = document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-function onYouTubeIframeAPIReady() {
-  dconVideoPlayer = new YT.Player('dcon__video__iframe', {
-    videoId: '1fU1zrZ1xzc',
-    playerVars: {
-      'autoplay': 1,
-      'controls': 0,
-      'loop': 1,
-      'modestbranding': 1
-    },
-    events: {
-      'onReady': function (event) {
-        event.target.setVolume(0);
-        event.target.playVideo();
-      }
-    }
-  });
-}
-
