@@ -97,3 +97,56 @@ $dcon-teal: #008080;
     font-size: $font-size-h1;
   }
 }
+
+$dcon-header-padding-vertical: 3px;
+$dcon-header-triangle-size: 13px;
+$dcon-header-triangle-height: $dcon-header-triangle-size + $dcon-header-padding-vertical;
+$dcon-header-bg-color: #000;
+
+.dcon__content {
+  .widget {
+    &:nth-child(even) {
+      background-color: $dcon-teal;
+      color: white;
+      margin-left: -30px;
+      margin-right: -30px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 15px;
+    }
+  }
+
+  h3.widget-title{
+    background-color: $dcon-header-bg-color;
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    padding: $dcon-header-padding-vertical $dcon-header-triangle-height;
+
+    &:before {
+      position: absolute;
+      left: -$dcon-header-triangle-height;
+      top: 0;
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: $dcon-header-triangle-height solid transparent;
+      border-bottom: $dcon-header-triangle-height solid transparent;
+      border-right: $dcon-header-triangle-height solid $dcon-header-bg-color;
+    }
+
+    &:after {
+      position: absolute;
+      right: -$dcon-header-triangle-height;
+      top: 0;
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: $dcon-header-triangle-height solid transparent;
+      border-bottom: $dcon-header-triangle-height solid transparent;
+      border-left: $dcon-header-triangle-height solid $dcon-header-bg-color;
+    }
+  }
+}
