@@ -56,7 +56,8 @@
     "wpackagist-plugin/google-analytics-for-wordpress": "^5.5",
     "wpackagist-plugin/wordpress-seo": "^3.6",
     "wpackagist-plugin/user-role-editor": "^4.27",
-    "wpackagist-plugin/sparkpost": "^2.4"
+    "wpackagist-plugin/sparkpost": "^2.4",
+    "wpackagist-plugin/download-monitor": "^1.9"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1",

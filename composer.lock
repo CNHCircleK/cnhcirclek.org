@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "055f3a61f88859ec5eff376c2848d12b",
-    "content-hash": "254577fd5604a09176a8dfd123f087e8",
+    "hash": "37c69f47f7412c40b1d307bb06331a3c",
+    "content-hash": "a337ba7b391c0cdec2f87692f9a49364",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -630,7 +630,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/buddypress.2.7.4.zip",
-                "reference": null,
+                "reference": "tags/2.7.4",
                 "shasum": null
             },
             "require": {
@@ -660,6 +660,26 @@
             "homepage": "https://wordpress.org/plugins/disqus-comment-system/"
         },
         {
+            "name": "wpackagist-plugin/download-monitor",
+            "version": "1.9.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/download-monitor/",
+                "reference": "tags/1.9.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/download-monitor.1.9.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/download-monitor/"
+        },
+        {
             "name": "wpackagist-plugin/duplicator",
             "version": "1.1.26",
             "source": {
@@ -670,7 +690,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/duplicator.1.1.26.zip",
-                "reference": null,
+                "reference": "tags/1.1.26",
                 "shasum": null
             },
             "require": {
@@ -750,7 +770,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/import-users-from-csv-with-meta.1.9.9.7.zip",
-                "reference": null,
+                "reference": "tags/1.9.9.7",
                 "shasum": null
             },
             "require": {
@@ -790,7 +810,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.21.zip",
-                "reference": null,
+                "reference": "tags/2.4.21",
                 "shasum": null
             },
             "require": {
@@ -850,7 +870,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/timber-library.1.2.0.zip",
-                "reference": null,
+                "reference": "tags/1.2.0",
                 "shasum": null
             },
             "require": {
@@ -890,7 +910,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.31.1.zip",
-                "reference": null,
+                "reference": "tags/4.31.1",
                 "shasum": null
             },
             "require": {
@@ -930,7 +950,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-all-import.3.4.0.zip",
-                "reference": null,
+                "reference": "tags/3.4.0",
                 "shasum": null
             },
             "require": {
