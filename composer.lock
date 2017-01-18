@@ -60,21 +60,21 @@
         },
         {
             "name": "asm89/twig-cache-extension",
-            "version": "1.3.1",
+            "version": "1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/asm89/twig-cache-extension.git",
-                "reference": "8e5bf490b7bf569e165027bc558e0e166f99b933"
+                "reference": "630ea7abdc3fc62ba6786c02590a1560e449cf55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asm89/twig-cache-extension/zipball/8e5bf490b7bf569e165027bc558e0e166f99b933",
-                "reference": "8e5bf490b7bf569e165027bc558e0e166f99b933",
+                "url": "https://api.github.com/repos/asm89/twig-cache-extension/zipball/630ea7abdc3fc62ba6786c02590a1560e449cf55",
+                "reference": "630ea7abdc3fc62ba6786c02590a1560e449cf55",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
-                "twig/twig": "~1.0"
+                "twig/twig": "^1.0|^2.0"
             },
             "require-dev": {
                 "doctrine/cache": "~1.0"
@@ -85,7 +85,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -110,7 +110,7 @@
                 "extension",
                 "twig"
             ],
-            "time": "2016-10-28 10:14:55"
+            "time": "2017-01-10 22:04:15"
         },
         {
             "name": "composer/installers",
@@ -214,16 +214,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.7",
+            "version": "4.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "b327faa6feea3a4058178dee7ac8b512bd957e92"
+                "reference": "6a6a20e568db37fb501fe9deb75ed2a8600d1b30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/b327faa6feea3a4058178dee7ac8b512bd957e92",
-                "reference": "b327faa6feea3a4058178dee7ac8b512bd957e92",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/6a6a20e568db37fb501fe9deb75ed2a8600d1b30",
+                "reference": "6a6a20e568db37fb501fe9deb75ed2a8600d1b30",
                 "shasum": ""
             },
             "require": {
@@ -247,7 +247,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-12-06 18:46:46"
+            "time": "2017-01-11 17:46:47"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -398,16 +398,16 @@
         },
         {
             "name": "timber/timber",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/timber/timber.git",
-                "reference": "b15ebfbf4bd19a2bd1a437601a6806630c3ce8c7"
+                "reference": "c7f76559ea65299c231375f4c4a62e67cd86ff00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/timber/timber/zipball/b15ebfbf4bd19a2bd1a437601a6806630c3ce8c7",
-                "reference": "b15ebfbf4bd19a2bd1a437601a6806630c3ce8c7",
+                "url": "https://api.github.com/repos/timber/timber/zipball/c7f76559ea65299c231375f4c4a62e67cd86ff00",
+                "reference": "c7f76559ea65299c231375f4c4a62e67cd86ff00",
                 "shasum": ""
             },
             "require": {
@@ -455,20 +455,20 @@
                 "timber",
                 "twig"
             ],
-            "time": "2016-12-30 03:17:17"
+            "time": "2017-01-10 17:02:07"
         },
         {
             "name": "twig/twig",
-            "version": "v1.30.0",
+            "version": "v1.31.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "c6ff71094fde15d12398eaba029434b013dc5e59"
+                "reference": "ddc9e3e20ee9c0b6908f401ac8353635b750eca7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/c6ff71094fde15d12398eaba029434b013dc5e59",
-                "reference": "c6ff71094fde15d12398eaba029434b013dc5e59",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ddc9e3e20ee9c0b6908f401ac8353635b750eca7",
+                "reference": "ddc9e3e20ee9c0b6908f401ac8353635b750eca7",
                 "shasum": ""
             },
             "require": {
@@ -476,12 +476,12 @@
             },
             "require-dev": {
                 "symfony/debug": "~2.7",
-                "symfony/phpunit-bridge": "~3.2@dev"
+                "symfony/phpunit-bridge": "~3.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.30-dev"
+                    "dev-master": "1.31-dev"
                 }
             },
             "autoload": {
@@ -516,7 +516,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-12-23 11:06:22"
+            "time": "2017-01-11 19:36:15"
         },
         {
             "name": "upstatement/routes",
@@ -761,16 +761,16 @@
         },
         {
             "name": "wpackagist-plugin/import-users-from-csv-with-meta",
-            "version": "1.9.9.7",
+            "version": "1.9.9.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/import-users-from-csv-with-meta/",
-                "reference": "tags/1.9.9.7"
+                "reference": "tags/1.9.9.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/import-users-from-csv-with-meta.1.9.9.7.zip",
-                "reference": "tags/1.9.9.7",
+                "url": "https://downloads.wordpress.org/plugin/import-users-from-csv-with-meta.1.9.9.8.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -781,16 +781,16 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "4.4.2",
+            "version": "4.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/4.4.2"
+                "reference": "tags/4.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.4.4.2.zip",
-                "reference": "tags/4.4.2",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.4.5.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -861,16 +861,16 @@
         },
         {
             "name": "wpackagist-plugin/timber-library",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/timber-library/",
-                "reference": "tags/1.2.0"
+                "reference": "tags/1.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/timber-library.1.2.0.zip",
-                "reference": "tags/1.2.0",
+                "url": "https://downloads.wordpress.org/plugin/timber-library.1.2.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
