@@ -171,14 +171,14 @@ $dcon-header-bg-color: #000;
       .teaser {
         color: initial;
       }
-    }
-  }
 
-  .btn-primary {
-    background-color: $dcon-teal;
+      .btn-primary {
+        background-color: $dcon-teal;
 
-    &:hover {
-      background-color: darken($dcon-teal, 5%);
+        &:hover {
+          background-color: darken($dcon-teal, 5%);
+        }
+      }
     }
   }
 }
