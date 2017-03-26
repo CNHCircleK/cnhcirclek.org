@@ -81,7 +81,7 @@
     background-color: $cki-navy-blue; // Super hacky to cover up the hero image. Should fix later
 
     .tenet {
-      background-color: rgb(77, 77, 76); // Also hacky way to make the color overlay
+      background-color: rgb(0, 22, 80); // Also hacky way to make the color overlay
       max-height: 200px;
       padding: 0;
 
@@ -89,7 +89,7 @@
         width: 100%;
 
         img {
-          opacity: 0.8;
+          opacity: 0.72;
           z-index: 0;
           object-fit: cover;
           width: 100%;
