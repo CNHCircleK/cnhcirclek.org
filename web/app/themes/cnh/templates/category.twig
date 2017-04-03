@@ -6,5 +6,37 @@
         {% for post in posts %}
             {% include ['tease-'~post.post_type~'.twig', 'tease.twig'] %}
         {% endfor %}
+
+        {% if pagination %}
+            <nav class="text-center" aria-label="Page Navigation">
+                <ul class="pagination">
+                    {% if pagination.prev %}
+                        <li>
+                            <a href="{{ pagination.prev.link }}" aria-label="Previous"
+                               class="{{ pagination.prev.link|length ? '' : 'invisible' }}">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                    {% endif %}
+                    {% for page in pagination.pages %}
+                        <li>
+                            {% if page.link %}
+                                <a href="{{ page.link }}" class="{{ page.class }}">{{ page.title }}</a>
+                            {% else %}
+                                <span class="{{ page.class }}">{{ page.title }}</span>
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+                    {% if pagination.next %}
+                        <li>
+                            <a href="{{ pagination.next.link }}"
+                               class="next {{ pagination.next.link|length ? '' : 'invisible' }}">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    {% endif %}
+                </ul>
+            </nav>
+        {% endif %}
     </div>
 {% endblock %}
