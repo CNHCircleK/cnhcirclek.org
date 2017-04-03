@@ -53,10 +53,10 @@
     "wpackagist-plugin/wp-editor": "^1.2.6.2",
     "wpackagist-plugin/import-users-from-csv-with-meta": "^1.9",
     "wpackagist-plugin/hide-admin-bar-from-non-admins": "^1.0",
-    "wpackagist-plugin/google-analytics-for-wordpress": "^5.5",
-    "wpackagist-plugin/wordpress-seo": "^3.6",
+    "wpackagist-plugin/google-analytics-for-wordpress": "^6.0",
+    "wpackagist-plugin/wordpress-seo": "^4.0",
     "wpackagist-plugin/user-role-editor": "^4.27",
-    "wpackagist-plugin/sparkpost": "^2.4",
+    "wpackagist-plugin/sparkpost": "^3.0",
     "wpackagist-plugin/download-monitor": "^1.9",
     "wpackagist-plugin/wordfence": "^6.3"
   },

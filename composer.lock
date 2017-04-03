@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "894efafd827b51668ab02b80ed0b4ac0",
+    "content-hash": "a65c0c0abed1cee4d123c345f110eabd",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -800,16 +800,16 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "5.5.4",
+            "version": "6.1.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/5.5.4"
+                "reference": "tags/6.1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.5.4.zip",
-                "reference": "tags/5.5.4",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.6.1.6.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -940,16 +940,16 @@
         },
         {
             "name": "wpackagist-plugin/sparkpost",
-            "version": "2.6.4",
+            "version": "3.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/sparkpost/",
-                "reference": "tags/2.6.4"
+                "reference": "tags/3.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/sparkpost.2.6.4.zip",
-                "reference": "tags/2.6.4",
+                "url": "https://downloads.wordpress.org/plugin/sparkpost.3.0.0.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1040,16 +1040,16 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.9",
+            "version": "4.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.9"
+                "reference": "tags/4.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.9.zip",
-                "reference": "tags/3.9",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.5.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
