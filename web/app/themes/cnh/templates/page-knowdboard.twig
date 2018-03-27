@@ -1,0 +1,24 @@
+{% extends "base.twig" %}
+
+{% block content %}
+    <article class="post post-type-{{ post.post_type }}" id="post-{{ post.ID }}">
+        
+        <div>
+            <p><a class="ge-link" href="http://www.example.com"></a></p>
+        </div>
+
+        <div class="container container_white">
+            <div class="post__content dcon__content">
+                <div class="row">
+                    <div class="col-xs-12">
+                        {{ post.content }}
+                        <p><a class="ge-link" href="http://www.example.com"></a></p>
+                    </div>
+                </div>
+
+                {% block after_content %}{% endblock %}
+            </div>
+        </div>
+    </article>
+
+{% endblock %}
