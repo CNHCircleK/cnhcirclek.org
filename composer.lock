@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e12ee3b88b9698d728ff8c25f36b8fb9",
+    "content-hash": "566833ff3ed6fd62c8e661a10bd8891b",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -806,15 +806,15 @@
         },
         {
             "name": "wpackagist-plugin/disqus-comment-system",
-            "version": "2.87",
+            "version": "3.0.16",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/disqus-comment-system/",
-                "reference": "tags/2.87"
+                "reference": "tags/3.0.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disqus-comment-system.2.87.zip",
+                "url": "https://downloads.wordpress.org/plugin/disqus-comment-system.3.0.16.zip",
                 "reference": null,
                 "shasum": null
             },
