@@ -57,7 +57,7 @@
     "wpackagist-plugin/wordpress-seo": "^7.0",
     "wpackagist-plugin/user-role-editor": "^4.27",
     "wpackagist-plugin/sparkpost": "^3.0",
-    "wpackagist-plugin/download-monitor": "^1.9",
+    "wpackagist-plugin/download-monitor": "4.1.0",
     "wpackagist-plugin/wordfence": "^6.3",
     "wpackagist-plugin/scripts-n-styles": "^3.4",
     "wpackagist-plugin/visual-form-builder": "^2.9.3",

@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e12ee3b88b9698d728ff8c25f36b8fb9",
+    "content-hash": "a1c8282b5e29104be07040e77cc26703",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -826,15 +826,15 @@
         },
         {
             "name": "wpackagist-plugin/download-monitor",
-            "version": "1.9.9",
+            "version": "4.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/download-monitor/",
-                "reference": "tags/1.9.9"
+                "reference": "tags/4.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/download-monitor.1.9.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/download-monitor.4.1.0.zip",
                 "reference": null,
                 "shasum": null
             },
