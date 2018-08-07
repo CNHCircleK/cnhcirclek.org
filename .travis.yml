@@ -15,6 +15,7 @@ cache:
 before_install:
   - phpenv config-rm xdebug.ini
   - composer self-update
+  - nvm install --lts
 
 script:
   - composer install -o --prefer-dist --no-interaction
