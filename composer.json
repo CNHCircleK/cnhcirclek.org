@@ -58,7 +58,7 @@
     "wpackagist-plugin/user-role-editor": "^4.27",
     "wpackagist-plugin/sparkpost": "^3.0",
     "wpackagist-plugin/download-monitor": "^1.9",
-    "wpackagist-plugin/wordfence": "^6.3",
+    "wpackagist-plugin/wordfence": "7.1.10",
     "wpackagist-plugin/scripts-n-styles": "^3.4",
     "wpackagist-plugin/visual-form-builder": "^2.9.3",
     "wpackagist-plugin/ninja-forms": "^3.1.6",
