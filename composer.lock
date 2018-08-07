@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e12ee3b88b9698d728ff8c25f36b8fb9",
+    "content-hash": "ef2c94853fa84652e161964137c31294",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -886,15 +886,15 @@
         },
         {
             "name": "wpackagist-plugin/formidable",
-            "version": "2.05.09",
+            "version": "3.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/formidable/",
-                "reference": "tags/2.05.09"
+                "reference": "tags/3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/formidable.2.05.09.zip",
+                "url": "https://downloads.wordpress.org/plugin/formidable.3.0.zip",
                 "reference": null,
                 "shasum": null
             },
