@@ -1,0 +1,7 @@
+version: 2
+dependencies:
+- type: php
+- type: php
+  path: web/app/themes/cnh
+- type: js
+  path: web/app/themes/cnh
