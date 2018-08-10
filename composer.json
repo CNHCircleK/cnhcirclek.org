@@ -46,7 +46,7 @@
     "wpackagist-plugin/siteorigin-panels": "^2.4",
     "wpackagist-plugin/so-widgets-bundle": "^1.6",
     "wpackagist-plugin/disqus-comment-system": "^2.85",
-    "wpackagist-plugin/jetpack": "^4.2",
+    "wpackagist-plugin/jetpack": "6.4.2",
     "wpackagist-plugin/google-calendar-events": "^3.1",
     "wpackagist-plugin/wp-all-import": "^3.3",
     "wpackagist-plugin/tinymce-advanced": "^4.4",
