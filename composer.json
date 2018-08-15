@@ -54,7 +54,7 @@
     "wpackagist-plugin/import-users-from-csv-with-meta": "^1.9",
     "wpackagist-plugin/hide-admin-bar-from-non-admins": "^1.0",
     "wpackagist-plugin/google-analytics-for-wordpress": "^7.0",
-    "wpackagist-plugin/wordpress-seo": "^7.0",
+    "wpackagist-plugin/wordpress-seo": "8.0",
     "wpackagist-plugin/user-role-editor": "^4.27",
     "wpackagist-plugin/sparkpost": "^3.0",
     "wpackagist-plugin/download-monitor": "^1.9",

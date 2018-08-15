@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e12ee3b88b9698d728ff8c25f36b8fb9",
+    "content-hash": "06701d97a819723cd285d76b195c4aed",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -1246,15 +1246,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "7.9",
+            "version": "8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/7.9"
+                "reference": "tags/8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.7.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.8.0.zip",
                 "reference": null,
                 "shasum": null
             },
