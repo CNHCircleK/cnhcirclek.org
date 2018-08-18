@@ -81,8 +81,8 @@
     "wordpress-install-dir": "web/wp"
   },
   "scripts": {
-    "test": [
-      "vendor/bin/phpcs --ignore=web/wp/,vendor/ -n -s ."
+    "post-install-cmd": [
+      "cd ./web/app/themes/cnh && composer install && npm install"
     ]
   }
 }
