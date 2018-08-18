@@ -5,7 +5,7 @@ CNH Circle K's website is built using WordPress. This project was generated usin
 
 The project consists of two major components: the WordPress installation and the theme.
 
-The theme is located in [`web/app/themes/cnh`](https://github.com/CNHCircleK/cnhcirclek.org/tree/master/web/app/themes/cnh). **Most development will be located here.**
+The theme is located in [`web/app/themes/cnh`](/web/app/themes/cnh). Refer to its documentation for more information. **Most development will be located here.**
 
 ## Requirements
 
@@ -111,17 +111,18 @@ Access the admin panel at `http://example.com/wp/wp-admin`
 
 ### 7. Set up pages and other content
 
-Some of the pages on the website are defined using page templates in the [CNH theme](https://github.com/CNHCircleK/cnhcirclek.org/tree/master/web/app/themes/cnh). You'll have to create pages with specific slugs to access them and develop, if necessary.
+Some of the pages on the website are defined using page templates in the [CNH theme](/web/app/themes/cnh). You'll have to create pages with specific slugs to access them and develop, if necessary.
 
 Pages:
-* `dcon` - [`page-dcon.twig`](https://github.com/CNHCircleK/cnhcirclek.org/tree/master/web/app/themes/cnh/templates/page-dcon.twig)
-* `knowdboard` - [`page-knowdboard.twig`](https://github.com/CNHCircleK/cnhcirclek.org/tree/master/web/app/themes/cnh/templates/page-knowdboard.twig)
+* `dcon` - [`page-dcon.twig`](/web/app/themes/cnh/templates/page-dcon.twig)
+* `knowdboard` - [`page-knowdboard.twig`](/web/app/themes/cnh/templates/page-knowdboard.twig)
 
 You may have to recreate other content as well.
 
 ## Development
 
 ### Frontend Development
+For more information, visit the [theme's README](/web/app/themes/cnh/README.md)
 
 #### `.twig` Templates
 The templates use [Timber](https://www.upstatement.com/timber/) for a cleaner development experience.
