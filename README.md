@@ -124,6 +124,13 @@ You may have to recreate other content as well.
 ### Frontend Development
 For more information, visit the [theme's README](/web/app/themes/cnh/README.md)
 
+### Quickstart
+```
+# Run in theme directory
+gulp watch
+# Edit theme files
+```
+
 #### `.twig` Templates
 The templates use [Timber](https://www.upstatement.com/timber/) for a cleaner development experience.
 
