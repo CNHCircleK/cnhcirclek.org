@@ -139,3 +139,11 @@ The templates use [Timber](https://www.upstatement.com/timber/) for a cleaner de
 * `gulp` — Compile and optimize the files in your assets directory
 * `gulp watch` — Compile assets when file changes are made
 * `gulp --production` — Compile assets for production (no source maps).
+
+## Services
+We use the additional services below to power our website.
+
+* [SparkPost](https://sparkpost.com) - Transactional email service
+* [CloudFlare](https://www.cloudflare.com) - CDN, DNS, and site reliability
+* [DigitalOcean](https://www.digitalocean.com) - Hosting
+* [ForwardMX](https://forwardmx.io) - Email forwarding
