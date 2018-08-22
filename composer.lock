@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "e12ee3b88b9698d728ff8c25f36b8fb9",
@@ -866,15 +866,15 @@
         },
         {
             "name": "wpackagist-plugin/form-maker",
-            "version": "1.12.33",
+            "version": "1.12.34",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/form-maker/",
-                "reference": "tags/1.12.33"
+                "reference": "tags/1.12.34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/form-maker.1.12.33.zip",
+                "url": "https://downloads.wordpress.org/plugin/form-maker.1.12.34.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -955,7 +955,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/hide-admin-bar-from-non-admins.1.0.zip",
-                "reference": "tags/1.0",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1046,15 +1046,15 @@
         },
         {
             "name": "wpackagist-plugin/pdf-embedder",
-            "version": "3.1.8",
+            "version": "3.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pdf-embedder/",
-                "reference": "tags/3.1.8"
+                "reference": "tags/3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pdf-embedder.3.1.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/pdf-embedder.3.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1295,7 +1295,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-editor.zip?timestamp=1475699144",
-                "reference": "trunk",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1415,7 +1415,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/theme-check.20160523.1.zip",
-                "reference": "tags/20160523.1",
+                "reference": null,
                 "shasum": null
             },
             "require": {
