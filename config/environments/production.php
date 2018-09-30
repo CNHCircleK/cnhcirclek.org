@@ -7,3 +7,4 @@ define('SCRIPT_DEBUG', false);
 // define('DISALLOW_FILE_MODS', false);
 /** Directly update plugins */
 define('FS_METHOD','direct');
+define('WP_DEBUG', true);
