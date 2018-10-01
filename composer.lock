@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "e12ee3b88b9698d728ff8c25f36b8fb9",
@@ -557,16 +557,16 @@
         },
         {
             "name": "timber/timber",
-            "version": "1.7.1",
+            "version": "1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/timber/timber.git",
-                "reference": "a6a553d70b58d9e1f7c612511b72be60b0e98248"
+                "reference": "51314124b9608de85dc0400c9a2c71caf336eb6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/timber/timber/zipball/a6a553d70b58d9e1f7c612511b72be60b0e98248",
-                "reference": "a6a553d70b58d9e1f7c612511b72be60b0e98248",
+                "url": "https://api.github.com/repos/timber/timber/zipball/51314124b9608de85dc0400c9a2c71caf336eb6c",
+                "reference": "51314124b9608de85dc0400c9a2c71caf336eb6c",
                 "shasum": ""
             },
             "require": {
@@ -577,8 +577,9 @@
                 "upstatement/routes": "0.4"
             },
             "require-dev": {
-                "phpunit/phpunit": "5.7.16",
-                "wpackagist-plugin/advanced-custom-fields": "4.4.*",
+                "johnpbloch/wordpress": "4.*",
+                "phpunit/phpunit": "5.7.16|6.*",
+                "wpackagist-plugin/advanced-custom-fields": "5.*",
                 "wpackagist-plugin/co-authors-plus": "3.2.*"
             },
             "suggest": {
@@ -614,7 +615,7 @@
                 "timber",
                 "twig"
             ],
-            "time": "2018-05-21T15:00:50+00:00"
+            "time": "2018-09-30T14:50:29+00:00"
         },
         {
             "name": "twig/twig",
@@ -846,15 +847,15 @@
         },
         {
             "name": "wpackagist-plugin/duplicator",
-            "version": "1.2.40",
+            "version": "1.2.48",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/duplicator/",
-                "reference": "tags/1.2.40"
+                "reference": "tags/1.2.48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duplicator.1.2.40.zip",
+                "url": "https://downloads.wordpress.org/plugin/duplicator.1.2.48.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -866,15 +867,15 @@
         },
         {
             "name": "wpackagist-plugin/form-maker",
-            "version": "1.12.33",
+            "version": "1.12.37",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/form-maker/",
-                "reference": "tags/1.12.33"
+                "reference": "tags/1.12.37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/form-maker.1.12.33.zip",
+                "url": "https://downloads.wordpress.org/plugin/form-maker.1.12.37.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -906,15 +907,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "7.1.0",
+            "version": "7.2.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/7.1.0"
+                "reference": "tags/7.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.7.1.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.7.2.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -955,7 +956,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/hide-admin-bar-from-non-admins.1.0.zip",
-                "reference": "tags/1.0",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -986,15 +987,15 @@
         },
         {
             "name": "wpackagist-plugin/import-users-from-csv-with-meta",
-            "version": "1.11.3.8",
+            "version": "1.11.3.14",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/import-users-from-csv-with-meta/",
-                "reference": "tags/1.11.3.8"
+                "reference": "tags/1.11.3.14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/import-users-from-csv-with-meta.1.11.3.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/import-users-from-csv-with-meta.1.11.3.14.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1026,15 +1027,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "3.3.13",
+            "version": "3.3.16",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/3.3.13"
+                "reference": "tags/3.3.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.3.13.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.3.16.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1046,15 +1047,15 @@
         },
         {
             "name": "wpackagist-plugin/pdf-embedder",
-            "version": "3.1.8",
+            "version": "3.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pdf-embedder/",
-                "reference": "tags/3.1.8"
+                "reference": "tags/3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pdf-embedder.3.1.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/pdf-embedder.3.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1106,15 +1107,15 @@
         },
         {
             "name": "wpackagist-plugin/so-widgets-bundle",
-            "version": "1.12.1",
+            "version": "1.13.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/so-widgets-bundle/",
-                "reference": "tags/1.12.1"
+                "reference": "tags/1.13.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.12.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.13.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1146,15 +1147,15 @@
         },
         {
             "name": "wpackagist-plugin/timber-library",
-            "version": "1.7.1",
+            "version": "1.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/timber-library/",
-                "reference": "tags/1.7.1"
+                "reference": "tags/1.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/timber-library.1.7.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/timber-library.1.8.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1186,15 +1187,15 @@
         },
         {
             "name": "wpackagist-plugin/user-role-editor",
-            "version": "4.45",
+            "version": "4.46",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/user-role-editor/",
-                "reference": "tags/4.45"
+                "reference": "tags/4.46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.45.zip",
+                "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.46.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1295,7 +1296,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-editor.zip?timestamp=1475699144",
-                "reference": "trunk",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1306,15 +1307,15 @@
         },
         {
             "name": "wpackagist-plugin/wpforms-lite",
-            "version": "1.4.7.2",
+            "version": "1.4.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wpforms-lite/",
-                "reference": "tags/1.4.7.2"
+                "reference": "tags/1.4.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wpforms-lite.1.4.7.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/wpforms-lite.1.4.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1415,7 +1416,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/theme-check.20160523.1.zip",
-                "reference": "tags/20160523.1",
+                "reference": null,
                 "shasum": null
             },
             "require": {
