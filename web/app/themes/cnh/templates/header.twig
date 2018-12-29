@@ -31,6 +31,19 @@
                         <span class="icon-bar"></span>
                     </button>
                 </div>
+                <style>
+                    .dropdown:hover .dropdown-menu1{
+                        display: block;
+                    }
+                    .child_dropdown-menu{
+                        display: none;
+                        list-style-type: none;
+                        color: black;
+                    }
+                    .child_dropdown:hover .child_dropdown-menu{
+                        display: block;
+                    }
+                </style>
 
                 <div class="collapse navbar-collapse" id="primary-nav">
                     <ul class="nav navbar-nav">
@@ -41,9 +54,22 @@
                                        aria-haspopup="true" aria-expanded="false">
                                         {{ item.title }} <span class="caret"></span>
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu dropdown-menu1">
                                         {% for child in item.get_children %}
+                                            {% if child.get_children %}
+                                                <li class="{{ child.classes | join(' ') }} child_dropdown">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="child_dropdown" role="button"
+                                                       aria-haspopup="true" aria-expanded="false">
+                                                        {{ child.title }} <span class="caret"></span>
+                                                    <ul class="child_dropdown-menu">
+                                                        {% for child_child in child.get_children %}
+                                                            <li><a class="child_child" href="{{ child_child.get_link }}">{{ child_child.title }}</a></li>
+                                                        {% endfor %}
+                                                    </ul>
+                                                </li>
+                                            {% else %}
                                             <li><a href="{{ child.get_link }}">{{ child.title }}</a></li>
+                                            {% endif %}
                                         {% endfor %}
                                     </ul>
                                 </li>
@@ -55,6 +81,7 @@
                         {% endfor %}
                     </ul>
                 </div>
+
             {% endif %}
         </nav>
     </div>

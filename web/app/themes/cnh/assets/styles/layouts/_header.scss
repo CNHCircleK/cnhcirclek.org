@@ -1,0 +1,13 @@
+.dropdown:hover .dropdown-menu1{
+    display: block;
+}
+
+.child_dropdown-menu{
+    display: none;
+    list-style-type: none;
+    color: black;
+}
+
+.child_dropdown:hover .child_dropdown-menu{
+    display: block;
+}
