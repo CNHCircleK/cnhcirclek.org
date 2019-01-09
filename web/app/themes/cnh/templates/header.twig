@@ -1,4 +1,4 @@
-<header class="banner">
+<header id="header" class="banner">
     <div class="container container_no-padding">
         <nav class="navbar navbar-default navbar-opaque">
             <div class="masthead">
@@ -31,18 +31,31 @@
                         <span class="icon-bar"></span>
                     </button>
                 </div>
+
+		<!-- moved this css to assets/styles/_header.scss but not sure if it's working there -->
                 <style>
-                    .dropdown:hover .dropdown-menu1{
-                        display: block;
+		    .child_dropdown-menu{
+		        display: none;
+		        list-style-type: none;
+		        color: black;
+		    }
+		    .child_dropdown:hover .child_dropdown-menu{
+		        display: block;
                     }
-                    .child_dropdown-menu{
-                        display: none;
-                        list-style-type: none;
-                        color: black;
-                    }
-                    .child_dropdown:hover .child_dropdown-menu{
-                        display: block;
-                    }
+
+		    /* on mouse pointer screens open dropdown on hover */
+		    @media(pointer: fine) {
+			.dropdown:hover .dropdown-menu1{
+			    display: block;
+			}
+		    }
+		    
+		    /* on touch screens automatically open nested dropdowns */
+		    @media(pointer: coarse) {
+			.child_dropdown-menu{
+			    display: block;
+			}
+		    }
                 </style>
 
                 <div class="collapse navbar-collapse" id="primary-nav">

@@ -1,13 +1,24 @@
-.dropdown:hover .dropdown-menu1{
-    display: block;
-}
+#header{
+    .child_dropdown-menu{
+        display: none;
+        list-style-type: none;
+        color: black;
+    }
+    .child_dropdown:hover .child_dropdown-menu{
+        display: block;
+    }
 
-.child_dropdown-menu{
-    display: none;
-    list-style-type: none;
-    color: black;
-}
+    /* on mouse pointer screens open dropdown on hover */
+    @media(pointer: fine) {
+        .dropdown:hover .dropdown-menu1{
+            display: block;
+        }
+    }
 
-.child_dropdown:hover .child_dropdown-menu{
-    display: block;
+    /* on touch screens automatically open nested dropdowns */
+    @media(pointer: coarse) {
+        .child_dropdown-menu{
+            display: block;
+        }
+    }
 }
