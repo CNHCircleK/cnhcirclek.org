@@ -93,3 +93,11 @@ class StarterSite extends TimberSite {
     }
 }
 new StarterSite();
+
+
+// Remove Gutenberg Editor
+add_filter('use_block_editor_for_post', '__return_false', 10);
+
+@ini_set( 'upload_max_size' , '64M' );
+@ini_set( 'post_max_size', '64M');
+@ini_set( 'max_execution_time', '300' );
